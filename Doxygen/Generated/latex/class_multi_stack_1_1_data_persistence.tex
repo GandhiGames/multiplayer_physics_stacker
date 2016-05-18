@@ -1,0 +1,94 @@
+\hypertarget{class_multi_stack_1_1_data_persistence}{}\section{Multi\+Stack.\+Data\+Persistence Class Reference}
+\label{class_multi_stack_1_1_data_persistence}\index{Multi\+Stack.\+Data\+Persistence@{Multi\+Stack.\+Data\+Persistence}}
+
+
+Data persistence. Handles saving and loading of height and round data. The highest reached height and round are saved and retrieved from file.  
+
+
+Inheritance diagram for Multi\+Stack.\+Data\+Persistence\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_data_persistence}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_data_persistence_a7c9f8ba349cd66a0bc6881fe2d1cc0f7}{Load} ()
+\begin{DoxyCompactList}\small\item\em Load the highest round and height from file. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_data_persistence_a9fc99e077a4fe5b2a49d8508c25d2edd}{Save} (int \hyperlink{class_multi_stack_1_1_data_persistence_af7a5c84c3775aa714c16b32ffc052369}{height}, int \hyperlink{class_multi_stack_1_1_data_persistence_a964cbc11f47af6acf898c8e4d1e3c2fe}{round})
+\begin{DoxyCompactList}\small\item\em If height or round score greater than stored height/round then it is saved to file. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_multi_stack_1_1_data_persistence_af7a5c84c3775aa714c16b32ffc052369}{height}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the height. Loaded from file. \end{DoxyCompactList}\item 
+int \hyperlink{class_multi_stack_1_1_data_persistence_a964cbc11f47af6acf898c8e4d1e3c2fe}{round}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the round. Loaded from file. \end{DoxyCompactList}\item 
+static \hyperlink{class_multi_stack_1_1_data_persistence}{Data\+Persistence} \hyperlink{class_multi_stack_1_1_data_persistence_aa35435eca48c1494a7b196403006da91}{instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the instance of this class. Can be accessed from any script. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Data persistence. Handles saving and loading of height and round data. The highest reached height and round are saved and retrieved from file. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_data_persistence_a7c9f8ba349cd66a0bc6881fe2d1cc0f7}{}\index{Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}!Load@{Load}}
+\index{Load@{Load}!Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}}
+\subsubsection[{Load()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Data\+Persistence.\+Load (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_data_persistence_a7c9f8ba349cd66a0bc6881fe2d1cc0f7}
+
+
+Load the highest round and height from file. 
+
+\hypertarget{class_multi_stack_1_1_data_persistence_a9fc99e077a4fe5b2a49d8508c25d2edd}{}\index{Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}!Save@{Save}}
+\index{Save@{Save}!Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}}
+\subsubsection[{Save(int height, int round)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Data\+Persistence.\+Save (
+\begin{DoxyParamCaption}
+\item[{int}]{height, }
+\item[{int}]{round}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_data_persistence_a9fc99e077a4fe5b2a49d8508c25d2edd}
+
+
+If height or round score greater than stored height/round then it is saved to file. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em score} & Score.\\
+\hline
+\end{DoxyParams}
+
+
+\subsection{Property Documentation}
+\hypertarget{class_multi_stack_1_1_data_persistence_af7a5c84c3775aa714c16b32ffc052369}{}\index{Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}!height@{height}}
+\index{height@{height}!Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}}
+\subsubsection[{height}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Data\+Persistence.\+height\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_data_persistence_af7a5c84c3775aa714c16b32ffc052369}
+
+
+Gets the height. Loaded from file. 
+
+The score.\hypertarget{class_multi_stack_1_1_data_persistence_aa35435eca48c1494a7b196403006da91}{}\index{Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}!instance@{instance}}
+\index{instance@{instance}!Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Data\+Persistence} Multi\+Stack.\+Data\+Persistence.\+instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}\label{class_multi_stack_1_1_data_persistence_aa35435eca48c1494a7b196403006da91}
+
+
+Gets the instance of this class. Can be accessed from any script. 
+
+The instance.\hypertarget{class_multi_stack_1_1_data_persistence_a964cbc11f47af6acf898c8e4d1e3c2fe}{}\index{Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}!round@{round}}
+\index{round@{round}!Multi\+Stack\+::\+Data\+Persistence@{Multi\+Stack\+::\+Data\+Persistence}}
+\subsubsection[{round}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Data\+Persistence.\+round\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_data_persistence_a964cbc11f47af6acf898c8e4d1e3c2fe}
+
+
+Gets the round. Loaded from file. 
+
+The round.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+High Score/Data\+Persistence.\+cs\end{DoxyCompactItemize}

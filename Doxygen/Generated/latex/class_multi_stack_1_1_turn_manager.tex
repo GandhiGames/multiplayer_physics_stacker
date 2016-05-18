@@ -1,0 +1,397 @@
+\hypertarget{class_multi_stack_1_1_turn_manager}{}\section{Multi\+Stack.\+Turn\+Manager Class Reference}
+\label{class_multi_stack_1_1_turn_manager}\index{Multi\+Stack.\+Turn\+Manager@{Multi\+Stack.\+Turn\+Manager}}
+
+
+Handles player turns an spawning of player physics objects objects. Manages and maintains a list of spawned physics objects. Also handles applying certain \hyperlink{class_multi_stack_1_1_game_modifier}{Multi\+Stack.\+Game\+Modifier} e.\+g. when \hyperlink{class_multi_stack_1_1_explosive_shape_modifier}{Multi\+Stack.\+Explosive\+Shape\+Modifier} is applied, this class will loop through the spawned shape list and convert one shape into an explosive shape.  
+
+
+Inheritance diagram for Multi\+Stack.\+Turn\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_turn_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_ada486b044c24c99626a87dd09c5bd44a}{Initialise} (int num\+Of\+Players)
+\begin{DoxyCompactList}\small\item\em Sets number of players. Loads \hyperlink{class_multi_stack_1_1_turn_manager_a4c217abcf3dd22bc5aa3908aa68c0df3}{Multi\+Stack.\+Turn\+Manager.\+physics\+Objects}. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a5ecde21a2b9c4d25fa781e717a946700}{Change\+Shape\+To\+Glass} ()
+\begin{DoxyCompactList}\small\item\em Changes a shape to glass. The most recent shape that can be turn into glass is selected. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a4366a75c5431c6d38c2feeb650f07d54}{Change\+Shape\+To\+Explosive} ()
+\begin{DoxyCompactList}\small\item\em Changes a shape to explosive. The most recent shape that can be turned into an explosive is selected. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a91108690df912e6108e9fb618df72708}{Object\+Picked\+Up} (Rigidbody2\+D obj)
+\begin{DoxyCompactList}\small\item\em Specifies that an object has been picked up. This is used to help decide if the current player has finished their turn. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_aaca45e591f6687226f10d9a9e385e7f9}{Object\+Dropped} (Rigidbody2\+D obj)
+\begin{DoxyCompactList}\small\item\em Specifies that an object has been picked dropped. This is used to help decide if the current player has finished their turn. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_ae7cb8bf242a4c9cc7285be6aa8d3efb8}{Start\+New\+Round} ()
+\begin{DoxyCompactList}\small\item\em Starts a new round, increments current round counter and begins a new turn if not gameover. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_af375fbee3096867b8337e75b8e4a06de}{Apply\+Gravity\+Modifier} (float modifier)
+\begin{DoxyCompactList}\small\item\em Loops through each spawned physics object and multiplies the gravvity scale by the modifier. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a4e0f7de949f3cb912cdbe98a195dcd04}{Disable\+Gravity\+Modifier} ()
+\begin{DoxyCompactList}\small\item\em Disables the gravity modifier. Resets each spawned physics object gravity scale. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_aaaf4f4aa21ffbbb776f8aaa779cf132f}{Apply\+Size\+Modifier} (float modifier)
+\begin{DoxyCompactList}\small\item\em Applies a size modifier to each spawned physics object for this round. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a8755e3ed0f28537cea3ae261ec9521d1}{Disable\+Size\+Modifier} ()
+\begin{DoxyCompactList}\small\item\em Disables the size modifier. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_ad1754c98a2d10824c3a0b17928e49f82}{Apply\+Shape\+Modifier} (\hyperlink{namespace_multi_stack_ac7f637887fea673ceeae6fdd0598c048}{Shape} shape)
+\begin{DoxyCompactList}\small\item\em When invoked only the specified shape will be spawned this round. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a6e51d749d36ac99a6c83abe227f44160}{Disable\+Shape\+Modifier} ()
+\begin{DoxyCompactList}\small\item\em Disables the shape modifier. Any type of shape will be spawned next round. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a12f7087435556824abf79e14c8e52204}{Apply\+Catch\+The\+Shape\+Modifier} ()
+\begin{DoxyCompactList}\small\item\em Applies the catch the shape modifier. When this is activated, when a shape is spawned it is dropped and the player has to catch it before it falls. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_turn_manager_a01e22ec6056a36b65ec0d8afd563dd8d}{Disable\+Catch\+The\+Shape\+Modifier} ()
+\begin{DoxyCompactList}\small\item\em Disables the catch the shape modifier. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Transform\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_turn_manager_a4693285de295363939a9f454ac6a5e5b}{player\+Locations}
+\begin{DoxyCompactList}\small\item\em The player locations where the plays shape will spawn. \end{DoxyCompactList}\item 
+\hyperlink{struct_multi_stack_1_1_player_physics_object}{Player\+Physics\+Object}\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_turn_manager_a4c217abcf3dd22bc5aa3908aa68c0df3}{physics\+Objects}
+\begin{DoxyCompactList}\small\item\em The physics objects that can be spawned. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_turn_manager_a498a14eba4b58bc373456efba57302fa}{player\+Text}
+\begin{DoxyCompactList}\small\item\em The U\+I that will inform the player it is their turn. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_turn_manager_a2084e64bcf723c4d9d46960f18c26368}{time\+Remaining\+Text}
+\begin{DoxyCompactList}\small\item\em The U\+I that shows the current players time remaining for their turn. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_player_colours}{Player\+Colours} \hyperlink{class_multi_stack_1_1_turn_manager_a21fba5ca2fc616a5f1dde0676ba9f5f2}{player\+Colours}
+\begin{DoxyCompactList}\small\item\em The player colours. The \hyperlink{class_multi_stack_1_1_turn_manager_a498a14eba4b58bc373456efba57302fa}{Multi\+Stack.\+Turn\+Manager.\+player\+Text} U\+I is shown in the current players colour. \end{DoxyCompactList}\item 
+int \hyperlink{class_multi_stack_1_1_turn_manager_aac198a78f07eea0eae4e12fe100ea043}{base\+Time\+For\+Move} = 20
+\begin{DoxyCompactList}\small\item\em The base tim (without modifiers) that each player has to complete their turn. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{class_multi_stack_1_1_turn_manager_a74740c372c337673c08f6fe42cd35f5a}{current\+Round}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The current round number. \end{DoxyCompactList}\item 
+int \hyperlink{class_multi_stack_1_1_turn_manager_a02c135523dbabc3d7eef1467e567ec7c}{current\+Enhanced\+Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the height of the current stack of physics objects + 4f. This is used for the U\+I. \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_turn_manager_a951b024c556f17abe670f53ba30089f1}{shape\+Offset\+Height}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the height of the shape stack offset. Used by the \hyperlink{class_multi_stack_1_1_camera_manager}{Multi\+Stack.\+Camera\+Manager} to limit how far the camera can scroll upwards. \end{DoxyCompactList}\item 
+int \hyperlink{class_multi_stack_1_1_turn_manager_a386f4ecd851d1c9ef639ceaf7d31e439}{num\+Of\+Objects\+Spawned}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The number of physics objects in the current scene. \end{DoxyCompactList}\item 
+bool \hyperlink{class_multi_stack_1_1_turn_manager_aa811a8a5c996e0cf99295d7829727874}{explosive\+Sprite\+Available\+For\+Spawned\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} has spawned a physics object that can be turned into an explosive object. \end{DoxyCompactList}\item 
+bool \hyperlink{class_multi_stack_1_1_turn_manager_a2e2e26f02fda080730d6bd6c5e837e72}{glass\+Sprite\+Available\+For\+Spawned\+Object}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} has spawned an object that can be turned into a glass object. \end{DoxyCompactList}\item 
+bool \hyperlink{class_multi_stack_1_1_turn_manager_afbc6bb1a22b590b63ec2b7b496598352}{random\+Player\+Order}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} should shuffle the players for the next round. \end{DoxyCompactList}\item 
+int \hyperlink{class_multi_stack_1_1_turn_manager_a308c362d6c9ad9c8ca5f2e039ca76f90}{current\+Player}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em The index of the current player. \end{DoxyCompactList}\item 
+bool \hyperlink{class_multi_stack_1_1_turn_manager_a623b9a24f294fbbaa819e9149f9f0135}{should\+Update}\hspace{0.3cm}{\ttfamily  \mbox{[}set\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Sets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} should update. \end{DoxyCompactList}\item 
+static \hyperlink{class_multi_stack_1_1_turn_manager}{Turn\+Manager} \hyperlink{class_multi_stack_1_1_turn_manager_a7da3b19311001850c30860447304a5b4}{instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Signleton pattern. Gets the instance. Accessible from any class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles player turns an spawning of player physics objects objects. Manages and maintains a list of spawned physics objects. Also handles applying certain \hyperlink{class_multi_stack_1_1_game_modifier}{Multi\+Stack.\+Game\+Modifier} e.\+g. when \hyperlink{class_multi_stack_1_1_explosive_shape_modifier}{Multi\+Stack.\+Explosive\+Shape\+Modifier} is applied, this class will loop through the spawned shape list and convert one shape into an explosive shape. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_turn_manager_a12f7087435556824abf79e14c8e52204}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Apply\+Catch\+The\+Shape\+Modifier@{Apply\+Catch\+The\+Shape\+Modifier}}
+\index{Apply\+Catch\+The\+Shape\+Modifier@{Apply\+Catch\+The\+Shape\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Apply\+Catch\+The\+Shape\+Modifier()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Apply\+Catch\+The\+Shape\+Modifier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a12f7087435556824abf79e14c8e52204}
+
+
+Applies the catch the shape modifier. When this is activated, when a shape is spawned it is dropped and the player has to catch it before it falls. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_af375fbee3096867b8337e75b8e4a06de}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Apply\+Gravity\+Modifier@{Apply\+Gravity\+Modifier}}
+\index{Apply\+Gravity\+Modifier@{Apply\+Gravity\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Apply\+Gravity\+Modifier(float modifier)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Apply\+Gravity\+Modifier (
+\begin{DoxyParamCaption}
+\item[{float}]{modifier}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_af375fbee3096867b8337e75b8e4a06de}
+
+
+Loops through each spawned physics object and multiplies the gravvity scale by the modifier. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em modifier} & Modifier.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_ad1754c98a2d10824c3a0b17928e49f82}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Apply\+Shape\+Modifier@{Apply\+Shape\+Modifier}}
+\index{Apply\+Shape\+Modifier@{Apply\+Shape\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Apply\+Shape\+Modifier(\+Shape shape)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Apply\+Shape\+Modifier (
+\begin{DoxyParamCaption}
+\item[{{\bf Shape}}]{shape}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_ad1754c98a2d10824c3a0b17928e49f82}
+
+
+When invoked only the specified shape will be spawned this round. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em shape} & Shape.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_aaaf4f4aa21ffbbb776f8aaa779cf132f}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Apply\+Size\+Modifier@{Apply\+Size\+Modifier}}
+\index{Apply\+Size\+Modifier@{Apply\+Size\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Apply\+Size\+Modifier(float modifier)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Apply\+Size\+Modifier (
+\begin{DoxyParamCaption}
+\item[{float}]{modifier}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_aaaf4f4aa21ffbbb776f8aaa779cf132f}
+
+
+Applies a size modifier to each spawned physics object for this round. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em modifier} & Modifier.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_a4366a75c5431c6d38c2feeb650f07d54}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Change\+Shape\+To\+Explosive@{Change\+Shape\+To\+Explosive}}
+\index{Change\+Shape\+To\+Explosive@{Change\+Shape\+To\+Explosive}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Change\+Shape\+To\+Explosive()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Change\+Shape\+To\+Explosive (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a4366a75c5431c6d38c2feeb650f07d54}
+
+
+Changes a shape to explosive. The most recent shape that can be turned into an explosive is selected. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a5ecde21a2b9c4d25fa781e717a946700}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Change\+Shape\+To\+Glass@{Change\+Shape\+To\+Glass}}
+\index{Change\+Shape\+To\+Glass@{Change\+Shape\+To\+Glass}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Change\+Shape\+To\+Glass()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Change\+Shape\+To\+Glass (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a5ecde21a2b9c4d25fa781e717a946700}
+
+
+Changes a shape to glass. The most recent shape that can be turn into glass is selected. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a01e22ec6056a36b65ec0d8afd563dd8d}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Disable\+Catch\+The\+Shape\+Modifier@{Disable\+Catch\+The\+Shape\+Modifier}}
+\index{Disable\+Catch\+The\+Shape\+Modifier@{Disable\+Catch\+The\+Shape\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Disable\+Catch\+The\+Shape\+Modifier()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Disable\+Catch\+The\+Shape\+Modifier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a01e22ec6056a36b65ec0d8afd563dd8d}
+
+
+Disables the catch the shape modifier. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a4e0f7de949f3cb912cdbe98a195dcd04}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Disable\+Gravity\+Modifier@{Disable\+Gravity\+Modifier}}
+\index{Disable\+Gravity\+Modifier@{Disable\+Gravity\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Disable\+Gravity\+Modifier()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Disable\+Gravity\+Modifier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a4e0f7de949f3cb912cdbe98a195dcd04}
+
+
+Disables the gravity modifier. Resets each spawned physics object gravity scale. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a6e51d749d36ac99a6c83abe227f44160}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Disable\+Shape\+Modifier@{Disable\+Shape\+Modifier}}
+\index{Disable\+Shape\+Modifier@{Disable\+Shape\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Disable\+Shape\+Modifier()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Disable\+Shape\+Modifier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a6e51d749d36ac99a6c83abe227f44160}
+
+
+Disables the shape modifier. Any type of shape will be spawned next round. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a8755e3ed0f28537cea3ae261ec9521d1}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Disable\+Size\+Modifier@{Disable\+Size\+Modifier}}
+\index{Disable\+Size\+Modifier@{Disable\+Size\+Modifier}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Disable\+Size\+Modifier()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Disable\+Size\+Modifier (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a8755e3ed0f28537cea3ae261ec9521d1}
+
+
+Disables the size modifier. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_ada486b044c24c99626a87dd09c5bd44a}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Initialise@{Initialise}}
+\index{Initialise@{Initialise}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Initialise(int num\+Of\+Players)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Initialise (
+\begin{DoxyParamCaption}
+\item[{int}]{num\+Of\+Players}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_ada486b044c24c99626a87dd09c5bd44a}
+
+
+Sets number of players. Loads \hyperlink{class_multi_stack_1_1_turn_manager_a4c217abcf3dd22bc5aa3908aa68c0df3}{Multi\+Stack.\+Turn\+Manager.\+physics\+Objects}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+Of\+Players} & Number of players.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_aaca45e591f6687226f10d9a9e385e7f9}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Object\+Dropped@{Object\+Dropped}}
+\index{Object\+Dropped@{Object\+Dropped}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Object\+Dropped(\+Rigidbody2\+D obj)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Object\+Dropped (
+\begin{DoxyParamCaption}
+\item[{Rigidbody2\+D}]{obj}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_aaca45e591f6687226f10d9a9e385e7f9}
+
+
+Specifies that an object has been picked dropped. This is used to help decide if the current player has finished their turn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Object.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_a91108690df912e6108e9fb618df72708}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Object\+Picked\+Up@{Object\+Picked\+Up}}
+\index{Object\+Picked\+Up@{Object\+Picked\+Up}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Object\+Picked\+Up(\+Rigidbody2\+D obj)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Object\+Picked\+Up (
+\begin{DoxyParamCaption}
+\item[{Rigidbody2\+D}]{obj}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_a91108690df912e6108e9fb618df72708}
+
+
+Specifies that an object has been picked up. This is used to help decide if the current player has finished their turn. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em obj} & Object.\\
+\hline
+\end{DoxyParams}
+\hypertarget{class_multi_stack_1_1_turn_manager_ae7cb8bf242a4c9cc7285be6aa8d3efb8}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!Start\+New\+Round@{Start\+New\+Round}}
+\index{Start\+New\+Round@{Start\+New\+Round}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{Start\+New\+Round()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Turn\+Manager.\+Start\+New\+Round (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_turn_manager_ae7cb8bf242a4c9cc7285be6aa8d3efb8}
+
+
+Starts a new round, increments current round counter and begins a new turn if not gameover. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_turn_manager_aac198a78f07eea0eae4e12fe100ea043}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!base\+Time\+For\+Move@{base\+Time\+For\+Move}}
+\index{base\+Time\+For\+Move@{base\+Time\+For\+Move}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{base\+Time\+For\+Move}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Turn\+Manager.\+base\+Time\+For\+Move = 20}\label{class_multi_stack_1_1_turn_manager_aac198a78f07eea0eae4e12fe100ea043}
+
+
+The base tim (without modifiers) that each player has to complete their turn. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a4c217abcf3dd22bc5aa3908aa68c0df3}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!physics\+Objects@{physics\+Objects}}
+\index{physics\+Objects@{physics\+Objects}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{physics\+Objects}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player\+Physics\+Object} \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Turn\+Manager.\+physics\+Objects}\label{class_multi_stack_1_1_turn_manager_a4c217abcf3dd22bc5aa3908aa68c0df3}
+
+
+The physics objects that can be spawned. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a21fba5ca2fc616a5f1dde0676ba9f5f2}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!player\+Colours@{player\+Colours}}
+\index{player\+Colours@{player\+Colours}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{player\+Colours}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Player\+Colours} Multi\+Stack.\+Turn\+Manager.\+player\+Colours}\label{class_multi_stack_1_1_turn_manager_a21fba5ca2fc616a5f1dde0676ba9f5f2}
+
+
+The player colours. The \hyperlink{class_multi_stack_1_1_turn_manager_a498a14eba4b58bc373456efba57302fa}{Multi\+Stack.\+Turn\+Manager.\+player\+Text} U\+I is shown in the current players colour. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a4693285de295363939a9f454ac6a5e5b}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!player\+Locations@{player\+Locations}}
+\index{player\+Locations@{player\+Locations}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{player\+Locations}]{\setlength{\rightskip}{0pt plus 5cm}Transform \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Turn\+Manager.\+player\+Locations}\label{class_multi_stack_1_1_turn_manager_a4693285de295363939a9f454ac6a5e5b}
+
+
+The player locations where the plays shape will spawn. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a498a14eba4b58bc373456efba57302fa}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!player\+Text@{player\+Text}}
+\index{player\+Text@{player\+Text}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{player\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Turn\+Manager.\+player\+Text}\label{class_multi_stack_1_1_turn_manager_a498a14eba4b58bc373456efba57302fa}
+
+
+The U\+I that will inform the player it is their turn. 
+
+\hypertarget{class_multi_stack_1_1_turn_manager_a2084e64bcf723c4d9d46960f18c26368}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!time\+Remaining\+Text@{time\+Remaining\+Text}}
+\index{time\+Remaining\+Text@{time\+Remaining\+Text}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{time\+Remaining\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Turn\+Manager.\+time\+Remaining\+Text}\label{class_multi_stack_1_1_turn_manager_a2084e64bcf723c4d9d46960f18c26368}
+
+
+The U\+I that shows the current players time remaining for their turn. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_multi_stack_1_1_turn_manager_a02c135523dbabc3d7eef1467e567ec7c}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!current\+Enhanced\+Height@{current\+Enhanced\+Height}}
+\index{current\+Enhanced\+Height@{current\+Enhanced\+Height}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{current\+Enhanced\+Height}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Turn\+Manager.\+current\+Enhanced\+Height\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a02c135523dbabc3d7eef1467e567ec7c}
+
+
+Gets the height of the current stack of physics objects + 4f. This is used for the U\+I. 
+
+The height of the current.\hypertarget{class_multi_stack_1_1_turn_manager_a308c362d6c9ad9c8ca5f2e039ca76f90}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!current\+Player@{current\+Player}}
+\index{current\+Player@{current\+Player}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{current\+Player}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Turn\+Manager.\+current\+Player\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a308c362d6c9ad9c8ca5f2e039ca76f90}
+
+
+The index of the current player. 
+
+The current player.\hypertarget{class_multi_stack_1_1_turn_manager_a74740c372c337673c08f6fe42cd35f5a}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!current\+Round@{current\+Round}}
+\index{current\+Round@{current\+Round}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{current\+Round}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Turn\+Manager.\+current\+Round\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a74740c372c337673c08f6fe42cd35f5a}
+
+
+The current round number. 
+
+The current round.\hypertarget{class_multi_stack_1_1_turn_manager_aa811a8a5c996e0cf99295d7829727874}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!explosive\+Sprite\+Available\+For\+Spawned\+Object@{explosive\+Sprite\+Available\+For\+Spawned\+Object}}
+\index{explosive\+Sprite\+Available\+For\+Spawned\+Object@{explosive\+Sprite\+Available\+For\+Spawned\+Object}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{explosive\+Sprite\+Available\+For\+Spawned\+Object}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Turn\+Manager.\+explosive\+Sprite\+Available\+For\+Spawned\+Object\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_aa811a8a5c996e0cf99295d7829727874}
+
+
+Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} has spawned a physics object that can be turned into an explosive object. 
+
+{\ttfamily true} if explosive sprite available for spawned object; otherwise, {\ttfamily false}.\hypertarget{class_multi_stack_1_1_turn_manager_a2e2e26f02fda080730d6bd6c5e837e72}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!glass\+Sprite\+Available\+For\+Spawned\+Object@{glass\+Sprite\+Available\+For\+Spawned\+Object}}
+\index{glass\+Sprite\+Available\+For\+Spawned\+Object@{glass\+Sprite\+Available\+For\+Spawned\+Object}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{glass\+Sprite\+Available\+For\+Spawned\+Object}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Turn\+Manager.\+glass\+Sprite\+Available\+For\+Spawned\+Object\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a2e2e26f02fda080730d6bd6c5e837e72}
+
+
+Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} has spawned an object that can be turned into a glass object. 
+
+{\ttfamily true} if glass sprite available for spawned object; otherwise, {\ttfamily false}.\hypertarget{class_multi_stack_1_1_turn_manager_a7da3b19311001850c30860447304a5b4}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!instance@{instance}}
+\index{instance@{instance}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Turn\+Manager} Multi\+Stack.\+Turn\+Manager.\+instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a7da3b19311001850c30860447304a5b4}
+
+
+Signleton pattern. Gets the instance. Accessible from any class. 
+
+The instance.\hypertarget{class_multi_stack_1_1_turn_manager_a386f4ecd851d1c9ef639ceaf7d31e439}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!num\+Of\+Objects\+Spawned@{num\+Of\+Objects\+Spawned}}
+\index{num\+Of\+Objects\+Spawned@{num\+Of\+Objects\+Spawned}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{num\+Of\+Objects\+Spawned}]{\setlength{\rightskip}{0pt plus 5cm}int Multi\+Stack.\+Turn\+Manager.\+num\+Of\+Objects\+Spawned\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a386f4ecd851d1c9ef639ceaf7d31e439}
+
+
+The number of physics objects in the current scene. 
+
+The number of objects spawned.\hypertarget{class_multi_stack_1_1_turn_manager_afbc6bb1a22b590b63ec2b7b496598352}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!random\+Player\+Order@{random\+Player\+Order}}
+\index{random\+Player\+Order@{random\+Player\+Order}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{random\+Player\+Order}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Turn\+Manager.\+random\+Player\+Order\hspace{0.3cm}{\ttfamily [set]}}\label{class_multi_stack_1_1_turn_manager_afbc6bb1a22b590b63ec2b7b496598352}
+
+
+Sets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} should shuffle the players for the next round. 
+
+{\ttfamily true} if random player order; otherwise, {\ttfamily false}.\hypertarget{class_multi_stack_1_1_turn_manager_a951b024c556f17abe670f53ba30089f1}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!shape\+Offset\+Height@{shape\+Offset\+Height}}
+\index{shape\+Offset\+Height@{shape\+Offset\+Height}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{shape\+Offset\+Height}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Turn\+Manager.\+shape\+Offset\+Height\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_turn_manager_a951b024c556f17abe670f53ba30089f1}
+
+
+Gets the height of the shape stack offset. Used by the \hyperlink{class_multi_stack_1_1_camera_manager}{Multi\+Stack.\+Camera\+Manager} to limit how far the camera can scroll upwards. 
+
+The height of the shape offset.\hypertarget{class_multi_stack_1_1_turn_manager_a623b9a24f294fbbaa819e9149f9f0135}{}\index{Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}!should\+Update@{should\+Update}}
+\index{should\+Update@{should\+Update}!Multi\+Stack\+::\+Turn\+Manager@{Multi\+Stack\+::\+Turn\+Manager}}
+\subsubsection[{should\+Update}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Turn\+Manager.\+should\+Update\hspace{0.3cm}{\ttfamily [set]}}\label{class_multi_stack_1_1_turn_manager_a623b9a24f294fbbaa819e9149f9f0135}
+
+
+Sets a value indicating whether this \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} should update. 
+
+{\ttfamily true} if should update; otherwise, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+Managers/Turn\+Manager.\+cs\end{DoxyCompactItemize}

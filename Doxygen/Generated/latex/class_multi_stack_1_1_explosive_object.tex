@@ -1,0 +1,139 @@
+\hypertarget{class_multi_stack_1_1_explosive_object}{}\section{Multi\+Stack.\+Explosive\+Object Class Reference}
+\label{class_multi_stack_1_1_explosive_object}\index{Multi\+Stack.\+Explosive\+Object@{Multi\+Stack.\+Explosive\+Object}}
+
+
+Attached to any shape that can be turned into an explosive shape. Handles changing a shapes sprite and exploding.  
+
+
+Inheritance diagram for Multi\+Stack.\+Explosive\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_explosive_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_explosive_object_a370ff82a75c54370699bf2e6e9a5d3d3}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Activate this instance and changes the shapes sprite to that of \hyperlink{class_multi_stack_1_1_explosive_object_a837c3ceaac83c66cbb0b35de25a4821e}{Multi\+Stack.\+Explosive\+Object.\+explosive\+Sprite}. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_explosive_object_ae36d61db6bdd7744a6a662da354b00e8}{Execute} ()
+\begin{DoxyCompactList}\small\item\em Explodes this shape. Plays explosion audio, instantiates explosion fragments, plays explosion animation, applies explosive force to all shapes within the radius, and enables camera shake. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Game\+Object \hyperlink{class_multi_stack_1_1_explosive_object_a22de7a92e4da52f57888874f2d978f56}{explosion\+Prefab}
+\begin{DoxyCompactList}\small\item\em The prfab for the explosion animation. \end{DoxyCompactList}\item 
+Sprite \hyperlink{class_multi_stack_1_1_explosive_object_a837c3ceaac83c66cbb0b35de25a4821e}{explosive\+Sprite}
+\begin{DoxyCompactList}\small\item\em The shapes explosive sprite. \end{DoxyCompactList}\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_explosive_object_a675d3ee346269c79e0b60fb0e6eb38b9}{exploded\+Objects}
+\begin{DoxyCompactList}\small\item\em Object prefabs to be spawned when the shape is exploded. \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_explosive_object_abd25f5c7fec269baf7f18cafdb9a8f41}{explosive\+Force} = 500f
+\begin{DoxyCompactList}\small\item\em The force applied to shapes within the \hyperlink{class_multi_stack_1_1_explosive_object_a409a2b47d8945963839fae41b038e1f5}{Multi\+Stack.\+Explosive\+Object.\+explosive\+Radius} \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_explosive_object_a409a2b47d8945963839fae41b038e1f5}{explosive\+Radius} = 2f
+\begin{DoxyCompactList}\small\item\em The explosion radius. Force is applied to all other shapes within this radius. \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_explosive_object_aa56e67200c145c64a54a898e5b060456}{required\+Force\+To\+Explode} = 5.\+3f
+\begin{DoxyCompactList}\small\item\em The force if contact between this shape and another shape to trigger the explosion. \end{DoxyCompactList}\item 
+Audio\+Clip \hyperlink{class_multi_stack_1_1_explosive_object_ad7c26f2f4ee443b5f18b935a501bc01d}{explosion\+Audio\+Clip}
+\begin{DoxyCompactList}\small\item\em An audio clip to play when an explosion occurs. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_multi_stack_1_1_explosive_object_a0ecb247bb628265fb91df8d2c0b32a72}{ready\+To\+Be\+Activated}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_explosive_object}{Multi\+Stack.\+Explosive\+Object} is ready to be activated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Attached to any shape that can be turned into an explosive shape. Handles changing a shapes sprite and exploding. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_explosive_object_a370ff82a75c54370699bf2e6e9a5d3d3}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!Activate@{Activate}}
+\index{Activate@{Activate}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{Activate()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Explosive\+Object.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_explosive_object_a370ff82a75c54370699bf2e6e9a5d3d3}
+
+
+Activate this instance and changes the shapes sprite to that of \hyperlink{class_multi_stack_1_1_explosive_object_a837c3ceaac83c66cbb0b35de25a4821e}{Multi\+Stack.\+Explosive\+Object.\+explosive\+Sprite}. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_ae36d61db6bdd7744a6a662da354b00e8}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!Execute@{Execute}}
+\index{Execute@{Execute}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{Execute()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Explosive\+Object.\+Execute (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_explosive_object_ae36d61db6bdd7744a6a662da354b00e8}
+
+
+Explodes this shape. Plays explosion audio, instantiates explosion fragments, plays explosion animation, applies explosive force to all shapes within the radius, and enables camera shake. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_explosive_object_a675d3ee346269c79e0b60fb0e6eb38b9}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!exploded\+Objects@{exploded\+Objects}}
+\index{exploded\+Objects@{exploded\+Objects}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{exploded\+Objects}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Object \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Explosive\+Object.\+exploded\+Objects}\label{class_multi_stack_1_1_explosive_object_a675d3ee346269c79e0b60fb0e6eb38b9}
+
+
+Object prefabs to be spawned when the shape is exploded. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_ad7c26f2f4ee443b5f18b935a501bc01d}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!explosion\+Audio\+Clip@{explosion\+Audio\+Clip}}
+\index{explosion\+Audio\+Clip@{explosion\+Audio\+Clip}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{explosion\+Audio\+Clip}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Clip Multi\+Stack.\+Explosive\+Object.\+explosion\+Audio\+Clip}\label{class_multi_stack_1_1_explosive_object_ad7c26f2f4ee443b5f18b935a501bc01d}
+
+
+An audio clip to play when an explosion occurs. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_a22de7a92e4da52f57888874f2d978f56}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!explosion\+Prefab@{explosion\+Prefab}}
+\index{explosion\+Prefab@{explosion\+Prefab}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{explosion\+Prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Object Multi\+Stack.\+Explosive\+Object.\+explosion\+Prefab}\label{class_multi_stack_1_1_explosive_object_a22de7a92e4da52f57888874f2d978f56}
+
+
+The prfab for the explosion animation. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_abd25f5c7fec269baf7f18cafdb9a8f41}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!explosive\+Force@{explosive\+Force}}
+\index{explosive\+Force@{explosive\+Force}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{explosive\+Force}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Explosive\+Object.\+explosive\+Force = 500f}\label{class_multi_stack_1_1_explosive_object_abd25f5c7fec269baf7f18cafdb9a8f41}
+
+
+The force applied to shapes within the \hyperlink{class_multi_stack_1_1_explosive_object_a409a2b47d8945963839fae41b038e1f5}{Multi\+Stack.\+Explosive\+Object.\+explosive\+Radius} 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_a409a2b47d8945963839fae41b038e1f5}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!explosive\+Radius@{explosive\+Radius}}
+\index{explosive\+Radius@{explosive\+Radius}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{explosive\+Radius}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Explosive\+Object.\+explosive\+Radius = 2f}\label{class_multi_stack_1_1_explosive_object_a409a2b47d8945963839fae41b038e1f5}
+
+
+The explosion radius. Force is applied to all other shapes within this radius. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_a837c3ceaac83c66cbb0b35de25a4821e}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!explosive\+Sprite@{explosive\+Sprite}}
+\index{explosive\+Sprite@{explosive\+Sprite}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{explosive\+Sprite}]{\setlength{\rightskip}{0pt plus 5cm}Sprite Multi\+Stack.\+Explosive\+Object.\+explosive\+Sprite}\label{class_multi_stack_1_1_explosive_object_a837c3ceaac83c66cbb0b35de25a4821e}
+
+
+The shapes explosive sprite. 
+
+\hypertarget{class_multi_stack_1_1_explosive_object_aa56e67200c145c64a54a898e5b060456}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!required\+Force\+To\+Explode@{required\+Force\+To\+Explode}}
+\index{required\+Force\+To\+Explode@{required\+Force\+To\+Explode}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{required\+Force\+To\+Explode}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Explosive\+Object.\+required\+Force\+To\+Explode = 5.\+3f}\label{class_multi_stack_1_1_explosive_object_aa56e67200c145c64a54a898e5b060456}
+
+
+The force if contact between this shape and another shape to trigger the explosion. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_multi_stack_1_1_explosive_object_a0ecb247bb628265fb91df8d2c0b32a72}{}\index{Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}!ready\+To\+Be\+Activated@{ready\+To\+Be\+Activated}}
+\index{ready\+To\+Be\+Activated@{ready\+To\+Be\+Activated}!Multi\+Stack\+::\+Explosive\+Object@{Multi\+Stack\+::\+Explosive\+Object}}
+\subsubsection[{ready\+To\+Be\+Activated}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Explosive\+Object.\+ready\+To\+Be\+Activated\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_explosive_object_a0ecb247bb628265fb91df8d2c0b32a72}
+
+
+Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_explosive_object}{Multi\+Stack.\+Explosive\+Object} is ready to be activated. 
+
+{\ttfamily true} if ready to be activated; otherwise, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+Objects/Explosive\+Object.\+cs\end{DoxyCompactItemize}

@@ -1,0 +1,27 @@
+var searchData=
+[
+  ['save',['Save',['../class_multi_stack_1_1_data_persistence.html#a9fc99e077a4fe5b2a49d8508c25d2edd',1,'MultiStack::DataPersistence']]],
+  ['scoredata',['ScoreData',['../class_multi_stack_1_1_score_data.html',1,'MultiStack']]],
+  ['settarget',['SetTarget',['../class_multi_stack_1_1_camera_manager.html#a081a72450ee5183b5945c49b5757e6db',1,'MultiStack::CameraManager']]],
+  ['shake',['Shake',['../class_multi_stack_1_1_camera_shake.html#a6571236e5ca1ba88f0a3114f9357e8f4',1,'MultiStack::CameraShake']]],
+  ['shakeyshapes',['shakeyShapes',['../class_multi_stack_1_1_click_handler.html#a9088a8092cd9c9525c7024a3e7070c77',1,'MultiStack::ClickHandler']]],
+  ['shakeyshapesmodifier',['ShakeyShapesModifier',['../class_multi_stack_1_1_shakey_shapes_modifier.html',1,'MultiStack']]],
+  ['shape',['shape',['../class_multi_stack_1_1_one_shape_modifier.html#a5724e9f0dc3edb5f97363252a67b5db5',1,'MultiStack.OneShapeModifier.shape()'],['../struct_multi_stack_1_1_player_physics_object.html#a7232e0e0dce8cd41a4d60977c4c6bc7b',1,'MultiStack.PlayerPhysicsObject.shape()'],['../namespace_multi_stack.html#ac7f637887fea673ceeae6fdd0598c048',1,'MultiStack.Shape()']]],
+  ['shapemovementspeedmodifier',['ShapeMovementSpeedModifier',['../class_multi_stack_1_1_shape_movement_speed_modifier.html',1,'MultiStack']]],
+  ['shapeoffsetheight',['shapeOffsetHeight',['../class_multi_stack_1_1_turn_manager.html#a951b024c556f17abe670f53ba30089f1',1,'MultiStack::TurnManager']]],
+  ['shapesizemodifier',['ShapeSizeModifier',['../class_multi_stack_1_1_shape_size_modifier.html',1,'MultiStack']]],
+  ['shouldpan',['shouldPan',['../class_multi_stack_1_1_camera_manager.html#aa36c3004b512594116595bc980734321',1,'MultiStack::CameraManager']]],
+  ['shouldupdate',['shouldUpdate',['../class_multi_stack_1_1_turn_manager.html#a623b9a24f294fbbaa819e9149f9f0135',1,'MultiStack::TurnManager']]],
+  ['simpleprefab',['simplePrefab',['../struct_multi_stack_1_1_player_physics_object.html#a9ea1890efae7166e3f97e09034dfd505',1,'MultiStack::PlayerPhysicsObject']]],
+  ['smashedaudioclip',['smashedAudioClip',['../class_multi_stack_1_1_glass_object.html#a0ffbf8da1d39767934eb87e8a2ee6710',1,'MultiStack::GlassObject']]],
+  ['smashedobjectprefabs',['smashedObjectPrefabs',['../class_multi_stack_1_1_glass_object.html#af62687ae4ee9848946633a1fb5e0a4ff',1,'MultiStack::GlassObject']]],
+  ['spawnstage',['SpawnStage',['../class_multi_stack_1_1_stage_selector.html#abee538fc62118823508d31ebff5a68d0',1,'MultiStack::StageSelector']]],
+  ['springmodifier',['SpringModifier',['../class_multi_stack_1_1_spring_modifier.html',1,'MultiStack']]],
+  ['stageprefabs',['stagePrefabs',['../class_multi_stack_1_1_stage_selector.html#ac258ba40874a76a4293c7ed3b9a424d9',1,'MultiStack::StageSelector']]],
+  ['stageselector',['stageSelector',['../class_multi_stack_1_1_game_manager.html#a5a526de2c9547502f5a8613d609624ef',1,'MultiStack::GameManager']]],
+  ['stageselector',['StageSelector',['../class_multi_stack_1_1_stage_selector.html',1,'MultiStack']]],
+  ['stagespawned',['stageSpawned',['../class_multi_stack_1_1_stage_selector.html#a72499a1e9a675f0fc6d2923d4c1daf51',1,'MultiStack::StageSelector']]],
+  ['stagetext',['stageText',['../class_multi_stack_1_1_stage_selector.html#a199ae7412400d6e934dba1d2dc6b4f45',1,'MultiStack::StageSelector']]],
+  ['startnewround',['StartNewRound',['../class_multi_stack_1_1_turn_manager.html#ae7cb8bf242a4c9cc7285be6aa8d3efb8',1,'MultiStack::TurnManager']]],
+  ['startpanning',['StartPanning',['../class_multi_stack_1_1_camera_manager.html#aa13e9d644f4c815804224367467021c1',1,'MultiStack::CameraManager']]]
+];

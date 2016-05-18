@@ -1,0 +1,128 @@
+\hypertarget{class_multi_stack_1_1_main_menu}{}\section{Multi\+Stack.\+Main\+Menu Class Reference}
+\label{class_multi_stack_1_1_main_menu}\index{Multi\+Stack.\+Main\+Menu@{Multi\+Stack.\+Main\+Menu}}
+
+
+Handles the U\+I for main menu and number of players select scene.  
+
+
+Inheritance diagram for Multi\+Stack.\+Main\+Menu\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_main_menu}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_main_menu_ae2fe990ea5367c5613591dbd23ecf9d8}{Player\+Box\+Placed} ()
+\begin{DoxyCompactList}\small\item\em Called when the player places a box on the platform. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_main_menu_a1e974e00f83bacb1d410a9ea6ec73e32}{Player\+Box\+Removed} ()
+\begin{DoxyCompactList}\small\item\em Called when the player removes a box from the platform. \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_main_menu_a48eb0a0757e1a7b85cb34e334da484fa}{Play\+Button\+Pressed} ()
+\begin{DoxyCompactList}\small\item\em Called when the play button has been pressed. If it is the first time it has been pressed, then it pans the camera down and then spawns the boxes else it loads the game scene. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_main_menu_a6fd09504dbf98f1464f65e15d897e8e4}{title\+Text}
+\begin{DoxyCompactList}\small\item\em The title text. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_main_menu_a67a98e0ca8c571f820e68e586ba53072}{num\+Of\+Players\+Text}
+\begin{DoxyCompactList}\small\item\em The number of players text. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_main_menu_ae6d2e9ea930343eeadd0d2405149d347}{other\+Text}
+\begin{DoxyCompactList}\small\item\em The other text. This is used to show messages to the player. \end{DoxyCompactList}\item 
+Rect\+Transform \hyperlink{class_multi_stack_1_1_main_menu_ad0770c7731b1bc84fe9214e576f84b1c}{play\+Button}
+\begin{DoxyCompactList}\small\item\em The play button rect transform. Used to translate the button when moving to the number of players screen. \end{DoxyCompactList}\item 
+Game\+Object \hyperlink{class_multi_stack_1_1_main_menu_a423b9ab552b7a5e2068b33e8276931ea}{player\+Box\+Prefab}
+\begin{DoxyCompactList}\small\item\em The prefab for the physics boxes used in the number of players select screen. \end{DoxyCompactList}\item 
+Transform\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_main_menu_af217845475c893bd3d6269933a269892}{player\+Box\+Spawn\+Locations}
+\begin{DoxyCompactList}\small\item\em The box spawn locations. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Handles the U\+I for main menu and number of players select scene. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_main_menu_a48eb0a0757e1a7b85cb34e334da484fa}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!Play\+Button\+Pressed@{Play\+Button\+Pressed}}
+\index{Play\+Button\+Pressed@{Play\+Button\+Pressed}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{Play\+Button\+Pressed()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Main\+Menu.\+Play\+Button\+Pressed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_main_menu_a48eb0a0757e1a7b85cb34e334da484fa}
+
+
+Called when the play button has been pressed. If it is the first time it has been pressed, then it pans the camera down and then spawns the boxes else it loads the game scene. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_ae2fe990ea5367c5613591dbd23ecf9d8}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!Player\+Box\+Placed@{Player\+Box\+Placed}}
+\index{Player\+Box\+Placed@{Player\+Box\+Placed}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{Player\+Box\+Placed()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Main\+Menu.\+Player\+Box\+Placed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_main_menu_ae2fe990ea5367c5613591dbd23ecf9d8}
+
+
+Called when the player places a box on the platform. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_a1e974e00f83bacb1d410a9ea6ec73e32}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!Player\+Box\+Removed@{Player\+Box\+Removed}}
+\index{Player\+Box\+Removed@{Player\+Box\+Removed}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{Player\+Box\+Removed()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Main\+Menu.\+Player\+Box\+Removed (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_main_menu_a1e974e00f83bacb1d410a9ea6ec73e32}
+
+
+Called when the player removes a box from the platform. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_main_menu_a67a98e0ca8c571f820e68e586ba53072}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!num\+Of\+Players\+Text@{num\+Of\+Players\+Text}}
+\index{num\+Of\+Players\+Text@{num\+Of\+Players\+Text}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{num\+Of\+Players\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Main\+Menu.\+num\+Of\+Players\+Text}\label{class_multi_stack_1_1_main_menu_a67a98e0ca8c571f820e68e586ba53072}
+
+
+The number of players text. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_ae6d2e9ea930343eeadd0d2405149d347}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!other\+Text@{other\+Text}}
+\index{other\+Text@{other\+Text}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{other\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Main\+Menu.\+other\+Text}\label{class_multi_stack_1_1_main_menu_ae6d2e9ea930343eeadd0d2405149d347}
+
+
+The other text. This is used to show messages to the player. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_ad0770c7731b1bc84fe9214e576f84b1c}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!play\+Button@{play\+Button}}
+\index{play\+Button@{play\+Button}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{play\+Button}]{\setlength{\rightskip}{0pt plus 5cm}Rect\+Transform Multi\+Stack.\+Main\+Menu.\+play\+Button}\label{class_multi_stack_1_1_main_menu_ad0770c7731b1bc84fe9214e576f84b1c}
+
+
+The play button rect transform. Used to translate the button when moving to the number of players screen. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_a423b9ab552b7a5e2068b33e8276931ea}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!player\+Box\+Prefab@{player\+Box\+Prefab}}
+\index{player\+Box\+Prefab@{player\+Box\+Prefab}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{player\+Box\+Prefab}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Object Multi\+Stack.\+Main\+Menu.\+player\+Box\+Prefab}\label{class_multi_stack_1_1_main_menu_a423b9ab552b7a5e2068b33e8276931ea}
+
+
+The prefab for the physics boxes used in the number of players select screen. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_af217845475c893bd3d6269933a269892}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!player\+Box\+Spawn\+Locations@{player\+Box\+Spawn\+Locations}}
+\index{player\+Box\+Spawn\+Locations@{player\+Box\+Spawn\+Locations}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{player\+Box\+Spawn\+Locations}]{\setlength{\rightskip}{0pt plus 5cm}Transform \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Main\+Menu.\+player\+Box\+Spawn\+Locations}\label{class_multi_stack_1_1_main_menu_af217845475c893bd3d6269933a269892}
+
+
+The box spawn locations. 
+
+\hypertarget{class_multi_stack_1_1_main_menu_a6fd09504dbf98f1464f65e15d897e8e4}{}\index{Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}!title\+Text@{title\+Text}}
+\index{title\+Text@{title\+Text}!Multi\+Stack\+::\+Main\+Menu@{Multi\+Stack\+::\+Main\+Menu}}
+\subsubsection[{title\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Main\+Menu.\+title\+Text}\label{class_multi_stack_1_1_main_menu_a6fd09504dbf98f1464f65e15d897e8e4}
+
+
+The title text. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+U\+I/Main\+Menu.\+cs\end{DoxyCompactItemize}

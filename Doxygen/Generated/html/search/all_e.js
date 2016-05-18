@@ -1,0 +1,21 @@
+var searchData=
+[
+  ['randomplayerorder',['randomPlayerOrder',['../class_multi_stack_1_1_turn_manager.html#afbc6bb1a22b590b63ec2b7b496598352',1,'MultiStack::TurnManager']]],
+  ['randomplayerordermodifier',['RandomPlayerOrderModifier',['../class_multi_stack_1_1_random_player_order_modifier.html',1,'MultiStack']]],
+  ['readytobeactivated',['readyToBeActivated',['../class_multi_stack_1_1_explosive_object.html#a0ecb247bb628265fb91df8d2c0b32a72',1,'MultiStack.ExplosiveObject.readyToBeActivated()'],['../class_multi_stack_1_1_glass_object.html#a4ab5c37980ecdeea3986f7075c7ea6aa',1,'MultiStack.GlassObject.readyToBeActivated()']]],
+  ['realprefab',['realPrefab',['../struct_multi_stack_1_1_player_physics_object.html#a12ec933050599f2b98759c1c4ceee830',1,'MultiStack::PlayerPhysicsObject']]],
+  ['requestnewtarget',['RequestNewTarget',['../class_multi_stack_1_1_camera_manager.html#abe622bf707f58b977ae6535b848dc184',1,'MultiStack::CameraManager']]],
+  ['requiredforcetocrack',['requiredForceToCrack',['../class_multi_stack_1_1_glass_object.html#ae9c87a466956cd98113e0b17ad11bcd5',1,'MultiStack::GlassObject']]],
+  ['requiredforcetoexplode',['requiredForceToExplode',['../class_multi_stack_1_1_explosive_object.html#aa56e67200c145c64a54a898e5b060456',1,'MultiStack::ExplosiveObject']]],
+  ['requiredmasstocrack',['requiredMassToCrack',['../class_multi_stack_1_1_glass_object.html#ac93340a7501f7e1db6dcffef8dea24ea',1,'MultiStack::GlassObject']]],
+  ['requiredrigidbodyyvelocity',['requiredRigidBodyYVelocity',['../class_multi_stack_1_1_fall_handler.html#a29322f628b3b2755771970610f11c382',1,'MultiStack::FallHandler']]],
+  ['resetpanspeedontargetreached',['ResetPanSpeedOnTargetReached',['../class_multi_stack_1_1_camera_manager.html#a3625d7638336b34316ffc10bfa84eddd',1,'MultiStack::CameraManager']]],
+  ['resettarget',['ResetTarget',['../class_multi_stack_1_1_camera_manager.html#a591dc3386c3ba31118b694ded94c3e6f',1,'MultiStack::CameraManager']]],
+  ['restartbutton',['restartButton',['../class_multi_stack_1_1_game_over_u_i.html#a7c0173e7b31a3367c9b75cc1a384c56e',1,'MultiStack::GameOverUI']]],
+  ['restartscene',['RestartScene',['../class_multi_stack_1_1_game_over_u_i.html#ab330768d714499d49e51f6a0fa37a828',1,'MultiStack::GameOverUI']]],
+  ['returntomainmenu',['ReturnToMainMenu',['../class_multi_stack_1_1_game_over_u_i.html#a7262bfc9da8aa5c0c48bfc0d2bc6286b',1,'MultiStack::GameOverUI']]],
+  ['reversedragmodifier',['ReverseDragModifier',['../class_multi_stack_1_1_reverse_drag_modifier.html',1,'MultiStack']]],
+  ['round',['round',['../class_multi_stack_1_1_data_persistence.html#a964cbc11f47af6acf898c8e4d1e3c2fe',1,'MultiStack::DataPersistence']]],
+  ['roundsreachedtext',['roundsReachedText',['../class_multi_stack_1_1_game_over_u_i.html#a0033ad5b25bfd1e023887833069669b9',1,'MultiStack::GameOverUI']]],
+  ['roundsreachedtitle',['roundsReachedTitle',['../class_multi_stack_1_1_game_over_u_i.html#a4c5b2ff1188a2911cc30e340ef72c66e',1,'MultiStack::GameOverUI']]]
+];

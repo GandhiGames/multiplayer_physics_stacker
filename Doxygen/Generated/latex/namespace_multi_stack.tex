@@ -1,0 +1,153 @@
+\hypertarget{namespace_multi_stack}{}\section{Multi\+Stack Namespace Reference}
+\label{namespace_multi_stack}\index{Multi\+Stack@{Multi\+Stack}}
+\subsection*{Classes}
+\begin{DoxyCompactItemize}
+\item 
+struct \hyperlink{struct_multi_stack_1_1_background}{Background}
+\begin{DoxyCompactList}\small\item\em Holds background specific data. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_background_manager}{Background\+Manager}
+\begin{DoxyCompactList}\small\item\em Creates the background object at runtime. Selects background from a pool of possible backgrounds. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_camera_manager}{Camera\+Manager}
+\begin{DoxyCompactList}\small\item\em Attached to the main camera in the Game Scene. Handles camera movement on the y axis. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_camera_shake}{Camera\+Shake}
+\begin{DoxyCompactList}\small\item\em Handles camera shake on explosion. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_can_only_pickup_once_modifier}{Can\+Only\+Pickup\+Once\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled the player can only pickup a shape once. Once a shape is dropped it is no longer draggable. Invokes \hyperlink{class_multi_stack_1_1_click_handler_ab7cdf9c5b65265b0f17437ee6313fbeb}{Multi\+Stack.\+Click\+Handler.\+can\+Only\+Click\+Once} \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_catch_the_shape_modifier}{Catch\+The\+Shape\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled any newly spawned physics objects are dropped straight away rather than waiting for the player to click on/touch them. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_clickable_object}{Clickable\+Object}
+\begin{DoxyCompactList}\small\item\em Attached to all physics objects. Defines if a object is currently being held. Used by \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} to help decide if a players turn is over. Also used to turn off interaction with object by setting \hyperlink{class_multi_stack_1_1_clickable_object_a9fbbe82e73f95769344946b8b39e2520}{Multi\+Stack.\+Clickable\+Object.\+clickable} \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_click_handler}{Click\+Handler}
+\begin{DoxyCompactList}\small\item\em The main click/drag manager. Handles picking up, dragging, and dropping of physics objects via mouse or touch screen controls. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_cloud}{Cloud}
+\begin{DoxyCompactList}\small\item\em Translates a cloud across the screen based on \hyperlink{class_multi_stack_1_1_cloud_a41c5aba0ae109496d637a7e08c726171}{Multi\+Stack.\+Cloud.\+min\+Speed} and \hyperlink{class_multi_stack_1_1_cloud_ad665595ffaaa5c7b5c6d5a7222d40c89}{Multi\+Stack.\+Cloud.\+max\+Speed}. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_cloud_controller}{Cloud\+Controller}
+\begin{DoxyCompactList}\small\item\em Handles creation of clouds. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_cloud_returner}{Cloud\+Returner}
+\begin{DoxyCompactList}\small\item\em Invokes \hyperlink{class_multi_stack_1_1_cloud_controller_a10db53c6e52758567af0bcaf8394b43d}{Multi\+Stack.\+Cloud\+Controller.\+Pool\+Cloud} when object enters trigger. This is placed at opposite end of the screen to the \hyperlink{class_multi_stack_1_1_cloud_controller}{Multi\+Stack.\+Cloud\+Controller} . \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_data_persistence}{Data\+Persistence}
+\begin{DoxyCompactList}\small\item\em Data persistence. Handles saving and loading of height and round data. The highest reached height and round are saved and retrieved from file. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_destroy}{Destroy}
+\begin{DoxyCompactList}\small\item\em Used during the explosion animation to destroy the gameobject on animation end. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_explosive_object}{Explosive\+Object}
+\begin{DoxyCompactList}\small\item\em Attached to any shape that can be turned into an explosive shape. Handles changing a shapes sprite and exploding. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_explosive_shape_modifier}{Explosive\+Shape\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled and conditions met a random shape is turned into an explosive shape. Invokes \hyperlink{class_multi_stack_1_1_turn_manager_a4366a75c5431c6d38c2feeb650f07d54}{Multi\+Stack.\+Turn\+Manager.\+Change\+Shape\+To\+Explosive}. \end{DoxyCompactList}\item 
+class {\bfseries Extensions}
+\begin{DoxyCompactList}\small\item\em useful Extension methods. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_fall_handler}{Fall\+Handler}
+\begin{DoxyCompactList}\small\item\em Moves camera position to this position if a physics object enters its trigger. Used to move camera to a falling shape. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_manager}{Game\+Manager}
+\begin{DoxyCompactList}\small\item\em Controls the game flow. Handles beginning the game, spawning the stage, starting new rounds, and ending the game. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_modifier}{Game\+Modifier}
+\begin{DoxyCompactList}\small\item\em The abstract base class for every game modifier. Game modifiers are applied each round to change how the game is played. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_modifier_manager}{Game\+Modifier\+Manager}
+\begin{DoxyCompactList}\small\item\em Handles game modifiers. These are modififers applied at the beginning of each round (e.\+g. low gravity). \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_over_handler}{Game\+Over\+Handler}
+\begin{DoxyCompactList}\small\item\em Invokes \hyperlink{class_multi_stack_1_1_game_manager_a8c599ec14abfba5712e9631a00d4ec59}{Multi\+Stack.\+Game\+Manager.\+On\+Game\+Over} when a physics object enters trigger. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_over_u_i}{Game\+Over\+U\+I}
+\begin{DoxyCompactList}\small\item\em Handles the displaying of the U\+I in the event of a game over. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_game_text}{Game\+Text}
+\begin{DoxyCompactList}\small\item\em A simple wrapper for the text object. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_glass_object}{Glass\+Object}
+\begin{DoxyCompactList}\small\item\em Attached to any shape that can be turned into a glass shape. Handles changing a shapes sprite and breaking. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_glass_shape_modifier}{Glass\+Shape\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled and conditions met a random shape is turned into an glass shape. Invokes \hyperlink{class_multi_stack_1_1_turn_manager_a5ecde21a2b9c4d25fa781e717a946700}{Multi\+Stack.\+Turn\+Manager.\+Change\+Shape\+To\+Glass}. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_gravity_modifier}{Gravity\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled a gravity modifier is appled to all spawned shapes. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_height_text}{Height\+Text}
+\begin{DoxyCompactList}\small\item\em The U\+I for the height shown during the game scene. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_highscore}{Highscore}
+\begin{DoxyCompactList}\small\item\em The U\+I for the highest height reached on the Main menu scene. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_increase_shape_size_while_held_modifier}{Increase\+Shape\+Size\+While\+Held\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled a shapes size increases while being dragged. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_main_menu}{Main\+Menu}
+\begin{DoxyCompactList}\small\item\em Handles the U\+I for main menu and number of players select scene. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_move_time}{Move\+Time}
+\begin{DoxyCompactList}\small\item\em Responsible for updating the current players move time. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_one_shape_modifier}{One\+Shape\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled only one shape specified by \hyperlink{class_multi_stack_1_1_one_shape_modifier_a5724e9f0dc3edb5f97363252a67b5db5}{Multi\+Stack.\+One\+Shape\+Modifier.\+shape} will be spawned for that round. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_player_box_placed}{Player\+Box\+Placed}
+\begin{DoxyCompactList}\small\item\em Used during the number of player selection scene. Handles alerting \hyperlink{class_multi_stack_1_1_main_menu}{Multi\+Stack.\+Main\+Menu} when a box is placed by invoking \hyperlink{class_multi_stack_1_1_main_menu_ae2fe990ea5367c5613591dbd23ecf9d8}{Multi\+Stack.\+Main\+Menu.\+Player\+Box\+Placed} and \hyperlink{class_multi_stack_1_1_main_menu_a1e974e00f83bacb1d410a9ea6ec73e32}{Multi\+Stack.\+Main\+Menu.\+Player\+Box\+Removed}. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_player_colours}{Player\+Colours}
+\begin{DoxyCompactList}\small\item\em Holds the coours for each player. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_player_number_count}{Player\+Number\+Count}
+\item 
+struct \hyperlink{struct_multi_stack_1_1_player_physics_object}{Player\+Physics\+Object}
+\begin{DoxyCompactList}\small\item\em A structure defining a physics object. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_random_player_order_modifier}{Random\+Player\+Order\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled the order of players is randomised for this round. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_reverse_drag_modifier}{Reverse\+Drag\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled drag is reversed e.\+g. when the player drags the mouse/finger left the shape moves right. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_score_data}{Score\+Data}
+\begin{DoxyCompactList}\small\item\em Class to store serializable height/round data. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_shakey_shapes_modifier}{Shakey\+Shapes\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled a random offset is added to a dragged shape each timestep. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_shape_movement_speed_modifier}{Shape\+Movement\+Speed\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled the drag speed is changed to Multi\+Stack.\+Shape\+Movement\+Speed\+Modifier.\+shape\+Movement\+Speed. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_shape_size_modifier}{Shape\+Size\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled all newly spawned shapes size is multiplied by Multi\+Stack.\+Shape\+Size\+Modifier.\+size\+Modifier. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_spring_modifier}{Spring\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled the shapes are attached to springs when being dragged. This results in a harder to control shape. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_stage_selector}{Stage\+Selector}
+\begin{DoxyCompactList}\small\item\em Used to select a stage for the game. A random stage is selected at the beginning of each game. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_time_for_move_modifier}{Time\+For\+Move\+Modifier}
+\begin{DoxyCompactList}\small\item\em When enabled the time a player has to complete their turn is changed to \hyperlink{class_multi_stack_1_1_time_for_move_modifier_af70ee289af6f74c5ef18ef495fbc5c03}{Multi\+Stack.\+Time\+For\+Move\+Modifier.\+changed\+Time}. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_turn_manager}{Turn\+Manager}
+\begin{DoxyCompactList}\small\item\em Handles player turns an spawning of player physics objects objects. Manages and maintains a list of spawned physics objects. Also handles applying certain \hyperlink{class_multi_stack_1_1_game_modifier}{Multi\+Stack.\+Game\+Modifier} e.\+g. when \hyperlink{class_multi_stack_1_1_explosive_shape_modifier}{Multi\+Stack.\+Explosive\+Shape\+Modifier} is applied, this class will loop through the spawned shape list and convert one shape into an explosive shape. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_u_i_flash}{U\+I\+Flash}
+\begin{DoxyCompactList}\small\item\em User interface flash. Acts as an overlay for the main menu and gameplay scene. \end{DoxyCompactList}\item 
+class \hyperlink{class_multi_stack_1_1_utilities}{Utilities}
+\begin{DoxyCompactList}\small\item\em Useful methods used by a number of classes. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{namespace_multi_stack_a19d387de624d6945620427c53c4f0c10}{Game\+Over\+Type} \{ {\bfseries Shape\+Off\+Screen}, 
+{\bfseries Time\+Up}
+ \}\begin{DoxyCompactList}\small\item\em Game over type. \end{DoxyCompactList}
+\item 
+enum \hyperlink{namespace_multi_stack_ac7f637887fea673ceeae6fdd0598c048}{Shape} \{ \\*
+{\bfseries Square}, 
+{\bfseries Circle}, 
+{\bfseries Triangle}, 
+{\bfseries Rectangle}, 
+\\*
+{\bfseries Irregular}
+ \}\begin{DoxyCompactList}\small\item\em Physic object shapes. \end{DoxyCompactList}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+delegate void \hyperlink{namespace_multi_stack_a4bd4097b52deebcafccf5815a8495960}{Call\+Back} ()
+\begin{DoxyCompactList}\small\item\em A delegate method used when specific actions occur. For example if this delegate is passed to \hyperlink{class_multi_stack_1_1_camera_manager_a3085f8ea5bbe1beb88a3219eba1e51bf}{Multi\+Stack.\+Camera\+Manager.\+Call\+Back\+On\+Target\+Reached} then it is invoked when the camera reaches its target y position. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\hypertarget{namespace_multi_stack_a19d387de624d6945620427c53c4f0c10}{}\index{Multi\+Stack@{Multi\+Stack}!Game\+Over\+Type@{Game\+Over\+Type}}
+\index{Game\+Over\+Type@{Game\+Over\+Type}!Multi\+Stack@{Multi\+Stack}}
+\subsubsection[{Game\+Over\+Type}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Multi\+Stack.\+Game\+Over\+Type}\hspace{0.3cm}{\ttfamily [strong]}}\label{namespace_multi_stack_a19d387de624d6945620427c53c4f0c10}
+
+
+Game over type. 
+
+\hypertarget{namespace_multi_stack_ac7f637887fea673ceeae6fdd0598c048}{}\index{Multi\+Stack@{Multi\+Stack}!Shape@{Shape}}
+\index{Shape@{Shape}!Multi\+Stack@{Multi\+Stack}}
+\subsubsection[{Shape}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Multi\+Stack.\+Shape}\hspace{0.3cm}{\ttfamily [strong]}}\label{namespace_multi_stack_ac7f637887fea673ceeae6fdd0598c048}
+
+
+Physic object shapes. 
+
+
+
+\subsection{Function Documentation}
+\hypertarget{namespace_multi_stack_a4bd4097b52deebcafccf5815a8495960}{}\index{Multi\+Stack@{Multi\+Stack}!Call\+Back@{Call\+Back}}
+\index{Call\+Back@{Call\+Back}!Multi\+Stack@{Multi\+Stack}}
+\subsubsection[{Call\+Back()}]{\setlength{\rightskip}{0pt plus 5cm}delegate void Multi\+Stack.\+Call\+Back (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{namespace_multi_stack_a4bd4097b52deebcafccf5815a8495960}
+
+
+A delegate method used when specific actions occur. For example if this delegate is passed to \hyperlink{class_multi_stack_1_1_camera_manager_a3085f8ea5bbe1beb88a3219eba1e51bf}{Multi\+Stack.\+Camera\+Manager.\+Call\+Back\+On\+Target\+Reached} then it is invoked when the camera reaches its target y position. 
+

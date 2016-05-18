@@ -1,0 +1,723 @@
+\begin{theindex}
+
+  \item {Activate}
+    \subitem {Multi\+Stack\+::\+Can\+Only\+Pickup\+Once\+Modifier}, 
+		\hyperpage{18}
+    \subitem {Multi\+Stack\+::\+Catch\+The\+Shape\+Modifier}, 
+		\hyperpage{19}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+    \subitem {Multi\+Stack\+::\+Explosive\+Shape\+Modifier}, 
+		\hyperpage{30}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier}, \hyperpage{35}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+    \subitem {Multi\+Stack\+::\+Glass\+Shape\+Modifier}, \hyperpage{43}
+    \subitem {Multi\+Stack\+::\+Gravity\+Modifier}, \hyperpage{45}
+    \subitem {Multi\+Stack\+::\+Increase\+Shape\+Size\+While\+Held\+Modifier}, 
+		\hyperpage{46}
+    \subitem {Multi\+Stack\+::\+One\+Shape\+Modifier}, \hyperpage{50}
+    \subitem {Multi\+Stack\+::\+Random\+Player\+Order\+Modifier}, 
+		\hyperpage{53}
+    \subitem {Multi\+Stack\+::\+Reverse\+Drag\+Modifier}, 
+		\hyperpage{54}
+    \subitem {Multi\+Stack\+::\+Shakey\+Shapes\+Modifier}, 
+		\hyperpage{56}
+    \subitem {Multi\+Stack\+::\+Shape\+Movement\+Speed\+Modifier}, 
+		\hyperpage{57}
+    \subitem {Multi\+Stack\+::\+Shape\+Size\+Modifier}, \hyperpage{58}
+    \subitem {Multi\+Stack\+::\+Spring\+Modifier}, \hyperpage{58}
+    \subitem {Multi\+Stack\+::\+Time\+For\+Move\+Modifier}, 
+		\hyperpage{62}
+  \item {Apply\+Catch\+The\+Shape\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{64}
+  \item {Apply\+Gravity\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{64}
+  \item {Apply\+New\+Modifier}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier\+Manager}, 
+		\hyperpage{36}
+  \item {Apply\+Shape\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{64}
+  \item {Apply\+Size\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+
+  \indexspace
+
+  \item {background\+Prefab}
+    \subitem {Multi\+Stack\+::\+Background}, \hyperpage{13}
+  \item {background\+Tile\+Prefab}
+    \subitem {Multi\+Stack\+::\+Background}, \hyperpage{13}
+  \item {backgrounds}
+    \subitem {Multi\+Stack\+::\+Background\+Manager}, \hyperpage{14}
+  \item {base\+Time\+For\+Move}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {box\+Mask}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+    \subitem {Multi\+Stack\+::\+Fall\+Handler}, \hyperpage{31}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {broken\+Stages}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+
+  \indexspace
+
+  \item {Call\+Back}
+    \subitem {Multi\+Stack}, \hyperpage{12}
+  \item {Call\+Back\+On\+Stage\+Complete}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{60}
+  \item {Call\+Back\+On\+Target\+Reached}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{15}
+  \item {Callback\+On\+U\+I\+Flash\+Complete}
+    \subitem {Multi\+Stack\+::\+U\+I\+Flash}, \hyperpage{68}
+  \item {can\+Only\+Click\+Once}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+  \item {Change\+Font\+Colour}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{40}
+  \item {Change\+Shape\+To\+Explosive}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {Change\+Shape\+To\+Glass}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {changed\+Time}
+    \subitem {Multi\+Stack\+::\+Time\+For\+Move\+Modifier}, 
+		\hyperpage{62}
+  \item {clear\+On\+Start}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{40}
+  \item {clickable}
+    \subitem {Multi\+Stack\+::\+Clickable\+Object}, \hyperpage{20}
+  \item {Clicked}
+    \subitem {Multi\+Stack\+::\+Clickable\+Object}, \hyperpage{20}
+  \item {cloud\+Controller}
+    \subitem {Multi\+Stack\+::\+Cloud\+Returner}, \hyperpage{25}
+  \item {cloud\+Prefabs}
+    \subitem {Multi\+Stack\+::\+Cloud\+Controller}, \hyperpage{24}
+  \item {colours}
+    \subitem {Multi\+Stack\+::\+Player\+Colours}, \hyperpage{51}
+  \item {Conditions\+Met}
+    \subitem {Multi\+Stack\+::\+Explosive\+Shape\+Modifier}, 
+		\hyperpage{30}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier}, \hyperpage{35}
+    \subitem {Multi\+Stack\+::\+Glass\+Shape\+Modifier}, \hyperpage{43}
+  \item {cracked\+Audio\+Clip}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {current\+Enhanced\+Height}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {current\+Player}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {current\+Round}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+
+  \indexspace
+
+  \item {Deactivate}
+    \subitem {Multi\+Stack\+::\+Can\+Only\+Pickup\+Once\+Modifier}, 
+		\hyperpage{18}
+    \subitem {Multi\+Stack\+::\+Catch\+The\+Shape\+Modifier}, 
+		\hyperpage{19}
+    \subitem {Multi\+Stack\+::\+Explosive\+Shape\+Modifier}, 
+		\hyperpage{31}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier}, \hyperpage{35}
+    \subitem {Multi\+Stack\+::\+Glass\+Shape\+Modifier}, \hyperpage{44}
+    \subitem {Multi\+Stack\+::\+Gravity\+Modifier}, \hyperpage{45}
+    \subitem {Multi\+Stack\+::\+Increase\+Shape\+Size\+While\+Held\+Modifier}, 
+		\hyperpage{46}
+    \subitem {Multi\+Stack\+::\+One\+Shape\+Modifier}, \hyperpage{50}
+    \subitem {Multi\+Stack\+::\+Random\+Player\+Order\+Modifier}, 
+		\hyperpage{54}
+    \subitem {Multi\+Stack\+::\+Reverse\+Drag\+Modifier}, 
+		\hyperpage{54}
+    \subitem {Multi\+Stack\+::\+Shakey\+Shapes\+Modifier}, 
+		\hyperpage{56}
+    \subitem {Multi\+Stack\+::\+Shape\+Movement\+Speed\+Modifier}, 
+		\hyperpage{57}
+    \subitem {Multi\+Stack\+::\+Shape\+Size\+Modifier}, \hyperpage{58}
+    \subitem {Multi\+Stack\+::\+Spring\+Modifier}, \hyperpage{58}
+    \subitem {Multi\+Stack\+::\+Time\+For\+Move\+Modifier}, 
+		\hyperpage{62}
+  \item {Disable\+Catch\+The\+Shape\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {Disable\+Gravity\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {Disable\+Shape\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {Disable\+Size\+Modifier}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {drag\+Line}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+  \item {drag\+Reversed}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+
+  \indexspace
+
+  \item {Execute}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {Execute\+Destroy}
+    \subitem {Multi\+Stack\+::\+Destroy}, \hyperpage{27}
+  \item {exploded\+Objects}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosion\+Audio\+Clip}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosion\+Prefab}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosive\+Force}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosive\+Radius}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosive\+Sprite}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {explosive\+Sprite\+Available\+For\+Spawned\+Object}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+
+  \indexspace
+
+  \item {game\+Modifier\+Manager}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {Game\+Over\+Type}
+    \subitem {Multi\+Stack}, \hyperpage{11}
+  \item {game\+Over\+U\+I}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {Game\+Over\+U\+I\+Flash\+In\+Seconds}
+    \subitem {Multi\+Stack\+::\+U\+I\+Flash}, \hyperpage{68}
+  \item {Get\+Random\+Rotation2\+D}
+    \subitem {Multi\+Stack\+::\+Utilities}, \hyperpage{69}
+  \item {glass\+Sprite\+Available\+For\+Spawned\+Object}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+  \item {gravity\+Modifier}
+    \subitem {Multi\+Stack\+::\+Gravity\+Modifier}, \hyperpage{45}
+
+  \indexspace
+
+  \item {has\+Reached\+Target}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{16}
+  \item {height}
+    \subitem {Multi\+Stack\+::\+Data\+Persistence}, \hyperpage{27}
+  \item {height\+Reached\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {height\+Reached\+Title}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {Hide\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{40}
+  \item {Hide\+Text\+After\+Time}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{40}
+
+  \indexspace
+
+  \item {increase\+Shape\+Size}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+  \item {info\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{61}
+  \item {initial\+Glass\+Sprite}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {Initialise}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {instance}
+    \subitem {Multi\+Stack\+::\+Data\+Persistence}, \hyperpage{27}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+    \subitem {Multi\+Stack\+::\+Utilities}, \hyperpage{70}
+  \item {instantiated\+Prefab}
+    \subitem {Multi\+Stack\+::\+Player\+Physics\+Object}, 
+		\hyperpage{53}
+  \item {Invoke\+Method\+Every\+Seconds}
+    \subitem {Multi\+Stack\+::\+Utilities}, \hyperpage{69}
+  \item {Is\+Enabled}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier}, \hyperpage{35}
+  \item {is\+Game\+Over}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {is\+Main\+Menu\+Scene}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+  \item {is\+Menu}
+    \subitem {Multi\+Stack\+::\+U\+I\+Flash}, \hyperpage{68}
+
+  \indexspace
+
+  \item {Load}
+    \subitem {Multi\+Stack\+::\+Data\+Persistence}, \hyperpage{25}
+  \item {low\+On\+Time\+Threshold}
+    \subitem {Multi\+Stack\+::\+Move\+Time}, \hyperpage{49}
+  \item {low\+Time\+Text\+Colour}
+    \subitem {Multi\+Stack\+::\+Move\+Time}, \hyperpage{49}
+
+  \indexspace
+
+  \item {main\+Menu\+Button}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {max\+Speed}
+    \subitem {Multi\+Stack\+::\+Cloud}, \hyperpage{22}
+  \item {max\+Time\+Between\+Clouds}
+    \subitem {Multi\+Stack\+::\+Cloud\+Controller}, \hyperpage{24}
+  \item {min\+Speed}
+    \subitem {Multi\+Stack\+::\+Cloud}, \hyperpage{22}
+  \item {min\+Time\+Between\+Clouds}
+    \subitem {Multi\+Stack\+::\+Cloud\+Controller}, \hyperpage{24}
+  \item {modifier\+Name}
+    \subitem {Multi\+Stack\+::\+Game\+Modifier}, \hyperpage{35}
+  \item {Multi\+Stack}, \hyperpage{9}
+    \subitem {Call\+Back}, \hyperpage{12}
+    \subitem {Game\+Over\+Type}, \hyperpage{11}
+    \subitem {Shape}, \hyperpage{11}
+  \item {Multi\+Stack.\+Background}, \hyperpage{13}
+  \item {Multi\+Stack.\+Background\+Manager}, \hyperpage{13}
+  \item {Multi\+Stack.\+Camera\+Manager}, \hyperpage{14}
+  \item {Multi\+Stack.\+Camera\+Shake}, \hyperpage{16}
+  \item {Multi\+Stack.\+Can\+Only\+Pickup\+Once\+Modifier}, 
+		\hyperpage{17}
+  \item {Multi\+Stack.\+Catch\+The\+Shape\+Modifier}, \hyperpage{18}
+  \item {Multi\+Stack.\+Click\+Handler}, \hyperpage{20}
+  \item {Multi\+Stack.\+Clickable\+Object}, \hyperpage{19}
+  \item {Multi\+Stack.\+Cloud}, \hyperpage{22}
+  \item {Multi\+Stack.\+Cloud\+Controller}, \hyperpage{23}
+  \item {Multi\+Stack.\+Cloud\+Returner}, \hyperpage{24}
+  \item {Multi\+Stack.\+Data\+Persistence}, \hyperpage{25}
+  \item {Multi\+Stack.\+Destroy}, \hyperpage{27}
+  \item {Multi\+Stack.\+Explosive\+Object}, \hyperpage{28}
+  \item {Multi\+Stack.\+Explosive\+Shape\+Modifier}, \hyperpage{30}
+  \item {Multi\+Stack.\+Fall\+Handler}, \hyperpage{31}
+  \item {Multi\+Stack.\+Game\+Manager}, \hyperpage{32}
+  \item {Multi\+Stack.\+Game\+Modifier}, \hyperpage{34}
+  \item {Multi\+Stack.\+Game\+Modifier\+Manager}, \hyperpage{36}
+  \item {Multi\+Stack.\+Game\+Over\+Handler}, \hyperpage{36}
+  \item {Multi\+Stack.\+Game\+Over\+U\+I}, \hyperpage{37}
+  \item {Multi\+Stack.\+Game\+Text}, \hyperpage{39}
+  \item {Multi\+Stack.\+Glass\+Object}, \hyperpage{41}
+  \item {Multi\+Stack.\+Glass\+Shape\+Modifier}, \hyperpage{43}
+  \item {Multi\+Stack.\+Gravity\+Modifier}, \hyperpage{44}
+  \item {Multi\+Stack.\+Height\+Text}, \hyperpage{45}
+  \item {Multi\+Stack.\+Highscore}, \hyperpage{45}
+  \item {Multi\+Stack.\+Increase\+Shape\+Size\+While\+Held\+Modifier}, 
+		\hyperpage{46}
+  \item {Multi\+Stack.\+Main\+Menu}, \hyperpage{47}
+  \item {Multi\+Stack.\+Move\+Time}, \hyperpage{48}
+  \item {Multi\+Stack.\+One\+Shape\+Modifier}, \hyperpage{49}
+  \item {Multi\+Stack.\+Player\+Box\+Placed}, \hyperpage{50}
+  \item {Multi\+Stack.\+Player\+Colours}, \hyperpage{51}
+  \item {Multi\+Stack.\+Player\+Number\+Count}, \hyperpage{51}
+  \item {Multi\+Stack.\+Player\+Physics\+Object}, \hyperpage{52}
+  \item {Multi\+Stack.\+Random\+Player\+Order\+Modifier}, 
+		\hyperpage{53}
+  \item {Multi\+Stack.\+Reverse\+Drag\+Modifier}, \hyperpage{54}
+  \item {Multi\+Stack.\+Score\+Data}, \hyperpage{55}
+  \item {Multi\+Stack.\+Shakey\+Shapes\+Modifier}, \hyperpage{55}
+  \item {Multi\+Stack.\+Shape\+Movement\+Speed\+Modifier}, 
+		\hyperpage{56}
+  \item {Multi\+Stack.\+Shape\+Size\+Modifier}, \hyperpage{57}
+  \item {Multi\+Stack.\+Spring\+Modifier}, \hyperpage{58}
+  \item {Multi\+Stack.\+Stage\+Selector}, \hyperpage{59}
+  \item {Multi\+Stack.\+Time\+For\+Move\+Modifier}, \hyperpage{61}
+  \item {Multi\+Stack.\+Turn\+Manager}, \hyperpage{62}
+  \item {Multi\+Stack.\+U\+I\+Flash}, \hyperpage{68}
+  \item {Multi\+Stack.\+Utilities}, \hyperpage{69}
+  \item {Multi\+Stack\+::\+Background}
+    \subitem {background\+Prefab}, \hyperpage{13}
+    \subitem {background\+Tile\+Prefab}, \hyperpage{13}
+  \item {Multi\+Stack\+::\+Background\+Manager}
+    \subitem {backgrounds}, \hyperpage{14}
+  \item {Multi\+Stack\+::\+Camera\+Manager}
+    \subitem {Call\+Back\+On\+Target\+Reached}, \hyperpage{15}
+    \subitem {has\+Reached\+Target}, \hyperpage{16}
+    \subitem {Request\+New\+Target}, \hyperpage{15}
+    \subitem {Reset\+Pan\+Speed\+On\+Target\+Reached}, \hyperpage{15}
+    \subitem {Reset\+Target}, \hyperpage{15}
+    \subitem {Set\+Target}, \hyperpage{16}
+    \subitem {should\+Pan}, \hyperpage{16}
+    \subitem {Start\+Panning}, \hyperpage{16}
+    \subitem {target\+Y}, \hyperpage{16}
+  \item {Multi\+Stack\+::\+Camera\+Shake}
+    \subitem {Shake}, \hyperpage{17}
+  \item {Multi\+Stack\+::\+Can\+Only\+Pickup\+Once\+Modifier}
+    \subitem {Activate}, \hyperpage{18}
+    \subitem {Deactivate}, \hyperpage{18}
+  \item {Multi\+Stack\+::\+Catch\+The\+Shape\+Modifier}
+    \subitem {Activate}, \hyperpage{19}
+    \subitem {Deactivate}, \hyperpage{19}
+  \item {Multi\+Stack\+::\+Click\+Handler}
+    \subitem {box\+Mask}, \hyperpage{21}
+    \subitem {can\+Only\+Click\+Once}, \hyperpage{21}
+    \subitem {drag\+Line}, \hyperpage{21}
+    \subitem {drag\+Reversed}, \hyperpage{21}
+    \subitem {increase\+Shape\+Size}, \hyperpage{21}
+    \subitem {is\+Main\+Menu\+Scene}, \hyperpage{21}
+    \subitem {player\+Colours}, \hyperpage{21}
+    \subitem {shakey\+Shapes}, \hyperpage{21}
+    \subitem {use\+Spring}, \hyperpage{22}
+    \subitem {velocity\+Ratio}, \hyperpage{22}
+  \item {Multi\+Stack\+::\+Clickable\+Object}
+    \subitem {clickable}, \hyperpage{20}
+    \subitem {Clicked}, \hyperpage{20}
+  \item {Multi\+Stack\+::\+Cloud}
+    \subitem {max\+Speed}, \hyperpage{22}
+    \subitem {min\+Speed}, \hyperpage{22}
+  \item {Multi\+Stack\+::\+Cloud\+Controller}
+    \subitem {cloud\+Prefabs}, \hyperpage{24}
+    \subitem {max\+Time\+Between\+Clouds}, \hyperpage{24}
+    \subitem {min\+Time\+Between\+Clouds}, \hyperpage{24}
+    \subitem {Pool\+Cloud}, \hyperpage{23}
+    \subitem {y\+Random\+Offset}, \hyperpage{24}
+  \item {Multi\+Stack\+::\+Cloud\+Returner}
+    \subitem {cloud\+Controller}, \hyperpage{25}
+  \item {Multi\+Stack\+::\+Data\+Persistence}
+    \subitem {height}, \hyperpage{27}
+    \subitem {instance}, \hyperpage{27}
+    \subitem {Load}, \hyperpage{25}
+    \subitem {round}, \hyperpage{27}
+    \subitem {Save}, \hyperpage{25}
+  \item {Multi\+Stack\+::\+Destroy}
+    \subitem {Execute\+Destroy}, \hyperpage{27}
+  \item {Multi\+Stack\+::\+Explosive\+Object}
+    \subitem {Activate}, \hyperpage{29}
+    \subitem {Execute}, \hyperpage{29}
+    \subitem {exploded\+Objects}, \hyperpage{29}
+    \subitem {explosion\+Audio\+Clip}, \hyperpage{29}
+    \subitem {explosion\+Prefab}, \hyperpage{29}
+    \subitem {explosive\+Force}, \hyperpage{29}
+    \subitem {explosive\+Radius}, \hyperpage{29}
+    \subitem {explosive\+Sprite}, \hyperpage{29}
+    \subitem {ready\+To\+Be\+Activated}, \hyperpage{29}
+    \subitem {required\+Force\+To\+Explode}, \hyperpage{29}
+  \item {Multi\+Stack\+::\+Explosive\+Shape\+Modifier}
+    \subitem {Activate}, \hyperpage{30}
+    \subitem {Conditions\+Met}, \hyperpage{30}
+    \subitem {Deactivate}, \hyperpage{31}
+  \item {Multi\+Stack\+::\+Fall\+Handler}
+    \subitem {box\+Mask}, \hyperpage{31}
+    \subitem {pan\+Speed}, \hyperpage{31}
+    \subitem {required\+Rigid\+Body\+Y\+Velocity}, \hyperpage{31}
+  \item {Multi\+Stack\+::\+Game\+Manager}
+    \subitem {game\+Modifier\+Manager}, \hyperpage{33}
+    \subitem {game\+Over\+U\+I}, \hyperpage{33}
+    \subitem {info\+Text}, \hyperpage{33}
+    \subitem {instance}, \hyperpage{33}
+    \subitem {is\+Game\+Over}, \hyperpage{33}
+    \subitem {On\+Game\+Over}, \hyperpage{33}
+    \subitem {On\+Round\+Over}, \hyperpage{33}
+    \subitem {stage\+Selector}, \hyperpage{33}
+    \subitem {ui\+Flash}, \hyperpage{33}
+  \item {Multi\+Stack\+::\+Game\+Modifier}
+    \subitem {Activate}, \hyperpage{35}
+    \subitem {Conditions\+Met}, \hyperpage{35}
+    \subitem {Deactivate}, \hyperpage{35}
+    \subitem {Is\+Enabled}, \hyperpage{35}
+    \subitem {modifier\+Name}, \hyperpage{35}
+  \item {Multi\+Stack\+::\+Game\+Modifier\+Manager}
+    \subitem {Apply\+New\+Modifier}, \hyperpage{36}
+  \item {Multi\+Stack\+::\+Game\+Over\+U\+I}
+    \subitem {Activate}, \hyperpage{38}
+    \subitem {height\+Reached\+Text}, \hyperpage{38}
+    \subitem {height\+Reached\+Title}, \hyperpage{38}
+    \subitem {main\+Menu\+Button}, \hyperpage{38}
+    \subitem {new\+Record}, \hyperpage{38}
+    \subitem {non\+Gameover\+U\+I\+Text}, \hyperpage{38}
+    \subitem {player\+Lost\+Text}, \hyperpage{38}
+    \subitem {player\+Lost\+Title}, \hyperpage{38}
+    \subitem {restart\+Button}, \hyperpage{38}
+    \subitem {Restart\+Scene}, \hyperpage{38}
+    \subitem {Return\+To\+Main\+Menu}, \hyperpage{38}
+    \subitem {rounds\+Reached\+Text}, \hyperpage{39}
+    \subitem {rounds\+Reached\+Title}, \hyperpage{39}
+    \subitem {title}, \hyperpage{39}
+  \item {Multi\+Stack\+::\+Game\+Text}
+    \subitem {Change\+Font\+Colour}, \hyperpage{40}
+    \subitem {clear\+On\+Start}, \hyperpage{40}
+    \subitem {Hide\+Text}, \hyperpage{40}
+    \subitem {Hide\+Text\+After\+Time}, \hyperpage{40}
+    \subitem {text}, \hyperpage{41}
+    \subitem {Update\+Text}, \hyperpage{40}
+  \item {Multi\+Stack\+::\+Glass\+Object}
+    \subitem {Activate}, \hyperpage{42}
+    \subitem {box\+Mask}, \hyperpage{42}
+    \subitem {broken\+Stages}, \hyperpage{42}
+    \subitem {cracked\+Audio\+Clip}, \hyperpage{42}
+    \subitem {initial\+Glass\+Sprite}, \hyperpage{42}
+    \subitem {ready\+To\+Be\+Activated}, \hyperpage{43}
+    \subitem {required\+Force\+To\+Crack}, \hyperpage{42}
+    \subitem {required\+Mass\+To\+Crack}, \hyperpage{42}
+    \subitem {smashed\+Audio\+Clip}, \hyperpage{42}
+    \subitem {smashed\+Object\+Prefabs}, \hyperpage{42}
+  \item {Multi\+Stack\+::\+Glass\+Shape\+Modifier}
+    \subitem {Activate}, \hyperpage{43}
+    \subitem {Conditions\+Met}, \hyperpage{43}
+    \subitem {Deactivate}, \hyperpage{44}
+  \item {Multi\+Stack\+::\+Gravity\+Modifier}
+    \subitem {Activate}, \hyperpage{45}
+    \subitem {Deactivate}, \hyperpage{45}
+    \subitem {gravity\+Modifier}, \hyperpage{45}
+  \item {Multi\+Stack\+::\+Increase\+Shape\+Size\+While\+Held\+Modifier}
+    \subitem {Activate}, \hyperpage{46}
+    \subitem {Deactivate}, \hyperpage{46}
+  \item {Multi\+Stack\+::\+Main\+Menu}
+    \subitem {num\+Of\+Players\+Text}, \hyperpage{48}
+    \subitem {other\+Text}, \hyperpage{48}
+    \subitem {play\+Button}, \hyperpage{48}
+    \subitem {Play\+Button\+Pressed}, \hyperpage{48}
+    \subitem {Player\+Box\+Placed}, \hyperpage{48}
+    \subitem {player\+Box\+Prefab}, \hyperpage{48}
+    \subitem {Player\+Box\+Removed}, \hyperpage{48}
+    \subitem {player\+Box\+Spawn\+Locations}, \hyperpage{48}
+    \subitem {title\+Text}, \hyperpage{48}
+  \item {Multi\+Stack\+::\+Move\+Time}
+    \subitem {low\+On\+Time\+Threshold}, \hyperpage{49}
+    \subitem {low\+Time\+Text\+Colour}, \hyperpage{49}
+    \subitem {normal\+Time\+Text\+Colour}, \hyperpage{49}
+  \item {Multi\+Stack\+::\+One\+Shape\+Modifier}
+    \subitem {Activate}, \hyperpage{50}
+    \subitem {Deactivate}, \hyperpage{50}
+    \subitem {shape}, \hyperpage{50}
+  \item {Multi\+Stack\+::\+Player\+Colours}
+    \subitem {colours}, \hyperpage{51}
+  \item {Multi\+Stack\+::\+Player\+Number\+Count}
+    \subitem {number\+Of\+Players}, \hyperpage{52}
+  \item {Multi\+Stack\+::\+Player\+Physics\+Object}
+    \subitem {instantiated\+Prefab}, \hyperpage{53}
+    \subitem {real\+Prefab}, \hyperpage{52}
+    \subitem {shape}, \hyperpage{52}
+    \subitem {simple\+Prefab}, \hyperpage{52}
+    \subitem {weight}, \hyperpage{53}
+  \item {Multi\+Stack\+::\+Random\+Player\+Order\+Modifier}
+    \subitem {Activate}, \hyperpage{53}
+    \subitem {Deactivate}, \hyperpage{54}
+  \item {Multi\+Stack\+::\+Reverse\+Drag\+Modifier}
+    \subitem {Activate}, \hyperpage{54}
+    \subitem {Deactivate}, \hyperpage{54}
+  \item {Multi\+Stack\+::\+Shakey\+Shapes\+Modifier}
+    \subitem {Activate}, \hyperpage{56}
+    \subitem {Deactivate}, \hyperpage{56}
+  \item {Multi\+Stack\+::\+Shape\+Movement\+Speed\+Modifier}
+    \subitem {Activate}, \hyperpage{57}
+    \subitem {Deactivate}, \hyperpage{57}
+  \item {Multi\+Stack\+::\+Shape\+Size\+Modifier}
+    \subitem {Activate}, \hyperpage{58}
+    \subitem {Deactivate}, \hyperpage{58}
+  \item {Multi\+Stack\+::\+Spring\+Modifier}
+    \subitem {Activate}, \hyperpage{58}
+    \subitem {Deactivate}, \hyperpage{58}
+  \item {Multi\+Stack\+::\+Stage\+Selector}
+    \subitem {Call\+Back\+On\+Stage\+Complete}, \hyperpage{60}
+    \subitem {info\+Text}, \hyperpage{61}
+    \subitem {Spawn\+Stage}, \hyperpage{61}
+    \subitem {stage\+Prefabs}, \hyperpage{61}
+    \subitem {stage\+Spawned}, \hyperpage{61}
+    \subitem {stage\+Text}, \hyperpage{61}
+  \item {Multi\+Stack\+::\+Time\+For\+Move\+Modifier}
+    \subitem {Activate}, \hyperpage{62}
+    \subitem {changed\+Time}, \hyperpage{62}
+    \subitem {Deactivate}, \hyperpage{62}
+  \item {Multi\+Stack\+::\+Turn\+Manager}
+    \subitem {Apply\+Catch\+The\+Shape\+Modifier}, \hyperpage{64}
+    \subitem {Apply\+Gravity\+Modifier}, \hyperpage{64}
+    \subitem {Apply\+Shape\+Modifier}, \hyperpage{64}
+    \subitem {Apply\+Size\+Modifier}, \hyperpage{65}
+    \subitem {base\+Time\+For\+Move}, \hyperpage{66}
+    \subitem {Change\+Shape\+To\+Explosive}, \hyperpage{65}
+    \subitem {Change\+Shape\+To\+Glass}, \hyperpage{65}
+    \subitem {current\+Enhanced\+Height}, \hyperpage{66}
+    \subitem {current\+Player}, \hyperpage{66}
+    \subitem {current\+Round}, \hyperpage{67}
+    \subitem {Disable\+Catch\+The\+Shape\+Modifier}, \hyperpage{65}
+    \subitem {Disable\+Gravity\+Modifier}, \hyperpage{65}
+    \subitem {Disable\+Shape\+Modifier}, \hyperpage{65}
+    \subitem {Disable\+Size\+Modifier}, \hyperpage{65}
+    \subitem {explosive\+Sprite\+Available\+For\+Spawned\+Object}, 
+		\hyperpage{67}
+    \subitem {glass\+Sprite\+Available\+For\+Spawned\+Object}, 
+		\hyperpage{67}
+    \subitem {Initialise}, \hyperpage{65}
+    \subitem {instance}, \hyperpage{67}
+    \subitem {num\+Of\+Objects\+Spawned}, \hyperpage{67}
+    \subitem {Object\+Dropped}, \hyperpage{65}
+    \subitem {Object\+Picked\+Up}, \hyperpage{66}
+    \subitem {physics\+Objects}, \hyperpage{66}
+    \subitem {player\+Colours}, \hyperpage{66}
+    \subitem {player\+Locations}, \hyperpage{66}
+    \subitem {player\+Text}, \hyperpage{66}
+    \subitem {random\+Player\+Order}, \hyperpage{67}
+    \subitem {shape\+Offset\+Height}, \hyperpage{67}
+    \subitem {should\+Update}, \hyperpage{67}
+    \subitem {Start\+New\+Round}, \hyperpage{66}
+    \subitem {time\+Remaining\+Text}, \hyperpage{66}
+  \item {Multi\+Stack\+::\+U\+I\+Flash}
+    \subitem {Callback\+On\+U\+I\+Flash\+Complete}, \hyperpage{68}
+    \subitem {Game\+Over\+U\+I\+Flash\+In\+Seconds}, \hyperpage{68}
+    \subitem {is\+Menu}, \hyperpage{68}
+  \item {Multi\+Stack\+::\+Utilities}
+    \subitem {Get\+Random\+Rotation2\+D}, \hyperpage{69}
+    \subitem {instance}, \hyperpage{70}
+    \subitem {Invoke\+Method\+Every\+Seconds}, \hyperpage{69}
+
+  \indexspace
+
+  \item {new\+Record}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {non\+Gameover\+U\+I\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {normal\+Time\+Text\+Colour}
+    \subitem {Multi\+Stack\+::\+Move\+Time}, \hyperpage{49}
+  \item {num\+Of\+Objects\+Spawned}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+  \item {num\+Of\+Players\+Text}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {number\+Of\+Players}
+    \subitem {Multi\+Stack\+::\+Player\+Number\+Count}, \hyperpage{52}
+
+  \indexspace
+
+  \item {Object\+Dropped}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{65}
+  \item {Object\+Picked\+Up}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {On\+Game\+Over}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {On\+Round\+Over}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {other\+Text}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+
+  \indexspace
+
+  \item {pan\+Speed}
+    \subitem {Multi\+Stack\+::\+Fall\+Handler}, \hyperpage{31}
+  \item {physics\+Objects}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {play\+Button}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {Play\+Button\+Pressed}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {Player\+Box\+Placed}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {player\+Box\+Prefab}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {Player\+Box\+Removed}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {player\+Box\+Spawn\+Locations}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+  \item {player\+Colours}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {player\+Locations}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {player\+Lost\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {player\+Lost\+Title}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {player\+Text}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {Pool\+Cloud}
+    \subitem {Multi\+Stack\+::\+Cloud\+Controller}, \hyperpage{23}
+
+  \indexspace
+
+  \item {random\+Player\+Order}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+  \item {ready\+To\+Be\+Activated}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{43}
+  \item {real\+Prefab}
+    \subitem {Multi\+Stack\+::\+Player\+Physics\+Object}, 
+		\hyperpage{52}
+  \item {Request\+New\+Target}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{15}
+  \item {required\+Force\+To\+Crack}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {required\+Force\+To\+Explode}
+    \subitem {Multi\+Stack\+::\+Explosive\+Object}, \hyperpage{29}
+  \item {required\+Mass\+To\+Crack}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {required\+Rigid\+Body\+Y\+Velocity}
+    \subitem {Multi\+Stack\+::\+Fall\+Handler}, \hyperpage{31}
+  \item {Reset\+Pan\+Speed\+On\+Target\+Reached}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{15}
+  \item {Reset\+Target}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{15}
+  \item {restart\+Button}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {Restart\+Scene}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {Return\+To\+Main\+Menu}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{38}
+  \item {round}
+    \subitem {Multi\+Stack\+::\+Data\+Persistence}, \hyperpage{27}
+  \item {rounds\+Reached\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{39}
+  \item {rounds\+Reached\+Title}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{39}
+
+  \indexspace
+
+  \item {Save}
+    \subitem {Multi\+Stack\+::\+Data\+Persistence}, \hyperpage{25}
+  \item {Set\+Target}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{16}
+  \item {Shake}
+    \subitem {Multi\+Stack\+::\+Camera\+Shake}, \hyperpage{17}
+  \item {shakey\+Shapes}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{21}
+  \item {Shape}
+    \subitem {Multi\+Stack}, \hyperpage{11}
+  \item {shape}
+    \subitem {Multi\+Stack\+::\+One\+Shape\+Modifier}, \hyperpage{50}
+    \subitem {Multi\+Stack\+::\+Player\+Physics\+Object}, 
+		\hyperpage{52}
+  \item {shape\+Offset\+Height}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+  \item {should\+Pan}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{16}
+  \item {should\+Update}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{67}
+  \item {simple\+Prefab}
+    \subitem {Multi\+Stack\+::\+Player\+Physics\+Object}, 
+		\hyperpage{52}
+  \item {smashed\+Audio\+Clip}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {smashed\+Object\+Prefabs}
+    \subitem {Multi\+Stack\+::\+Glass\+Object}, \hyperpage{42}
+  \item {Spawn\+Stage}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{61}
+  \item {stage\+Prefabs}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{61}
+  \item {stage\+Selector}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {stage\+Spawned}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{61}
+  \item {stage\+Text}
+    \subitem {Multi\+Stack\+::\+Stage\+Selector}, \hyperpage{61}
+  \item {Start\+New\+Round}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {Start\+Panning}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{16}
+
+  \indexspace
+
+  \item {target\+Y}
+    \subitem {Multi\+Stack\+::\+Camera\+Manager}, \hyperpage{16}
+  \item {text}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{41}
+  \item {time\+Remaining\+Text}
+    \subitem {Multi\+Stack\+::\+Turn\+Manager}, \hyperpage{66}
+  \item {title}
+    \subitem {Multi\+Stack\+::\+Game\+Over\+U\+I}, \hyperpage{39}
+  \item {title\+Text}
+    \subitem {Multi\+Stack\+::\+Main\+Menu}, \hyperpage{48}
+
+  \indexspace
+
+  \item {ui\+Flash}
+    \subitem {Multi\+Stack\+::\+Game\+Manager}, \hyperpage{33}
+  \item {Update\+Text}
+    \subitem {Multi\+Stack\+::\+Game\+Text}, \hyperpage{40}
+  \item {use\+Spring}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{22}
+
+  \indexspace
+
+  \item {velocity\+Ratio}
+    \subitem {Multi\+Stack\+::\+Click\+Handler}, \hyperpage{22}
+
+  \indexspace
+
+  \item {weight}
+    \subitem {Multi\+Stack\+::\+Player\+Physics\+Object}, 
+		\hyperpage{53}
+
+  \indexspace
+
+  \item {y\+Random\+Offset}
+    \subitem {Multi\+Stack\+::\+Cloud\+Controller}, \hyperpage{24}
+
+\end{theindex}

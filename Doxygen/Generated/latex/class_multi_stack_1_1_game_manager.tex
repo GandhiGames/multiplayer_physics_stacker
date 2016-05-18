@@ -1,0 +1,130 @@
+\hypertarget{class_multi_stack_1_1_game_manager}{}\section{Multi\+Stack.\+Game\+Manager Class Reference}
+\label{class_multi_stack_1_1_game_manager}\index{Multi\+Stack.\+Game\+Manager@{Multi\+Stack.\+Game\+Manager}}
+
+
+Controls the game flow. Handles beginning the game, spawning the stage, starting new rounds, and ending the game.  
+
+
+Inheritance diagram for Multi\+Stack.\+Game\+Manager\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_game_manager}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_game_manager_a8c599ec14abfba5712e9631a00d4ec59}{On\+Game\+Over} (\hyperlink{namespace_multi_stack_a19d387de624d6945620427c53c4f0c10}{Game\+Over\+Type} game\+Over\+Type=Game\+Over\+Type.\+Shape\+Off\+Screen)
+\begin{DoxyCompactList}\small\item\em Called in the event of a game over (either a players timer reaches zero or a shape falls out of bounds). Disables camera panning and \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} updates, and saves current height and round via \hyperlink{class_multi_stack_1_1_data_persistence}{Multi\+Stack.\+Data\+Persistence} \end{DoxyCompactList}\item 
+void \hyperlink{class_multi_stack_1_1_game_manager_aa8e72d64791c9e4db6815341488110fd}{On\+Round\+Over} ()
+\begin{DoxyCompactList}\small\item\em Raised at the end of each round. Shows new round text, applies a round modifier via \hyperlink{class_multi_stack_1_1_game_modifier_manager}{Multi\+Stack.\+Game\+Modifier\+Manager} and invokes \hyperlink{class_multi_stack_1_1_turn_manager_ae7cb8bf242a4c9cc7285be6aa8d3efb8}{Multi\+Stack.\+Turn\+Manager.\+Start\+New\+Round}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{class_multi_stack_1_1_u_i_flash}{U\+I\+Flash} \hyperlink{class_multi_stack_1_1_game_manager_aa3378e26e4669efb5cc272dfb2c80d6a}{ui\+Flash}
+\begin{DoxyCompactList}\small\item\em Reference to \hyperlink{class_multi_stack_1_1_u_i_flash}{U\+I\+Flash}, used to hide the game behind a semi-\/transparent texture on game over. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_over_u_i}{Game\+Over\+U\+I} \hyperlink{class_multi_stack_1_1_game_manager_a6b33f48d117d4db0a6873b1028eebb38}{game\+Over\+U\+I}
+\begin{DoxyCompactList}\small\item\em The game over U\+I controller. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_stage_selector}{Stage\+Selector} \hyperlink{class_multi_stack_1_1_game_manager_a5a526de2c9547502f5a8613d609624ef}{stage\+Selector}
+\begin{DoxyCompactList}\small\item\em The stage selector. Used to spawn the stage at the beginning of the game. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_modifier_manager}{Game\+Modifier\+Manager} \hyperlink{class_multi_stack_1_1_game_manager_a252e0694a8be8d574757504fc5549afd}{game\+Modifier\+Manager}
+\begin{DoxyCompactList}\small\item\em The game modifier manager. Used to apply a game modifier at the beginning of each round. \end{DoxyCompactList}\item 
+\hyperlink{class_multi_stack_1_1_game_text}{Game\+Text} \hyperlink{class_multi_stack_1_1_game_manager_a479c44610a6637e259add0fa0c3128e4}{info\+Text}
+\begin{DoxyCompactList}\small\item\em The info text U\+I object. Provides information to the player. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_multi_stack_1_1_game_manager_afe212dfefd75cfeb1e3fcc817bb92b64}{is\+Game\+Over}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether the game is over. \end{DoxyCompactList}\item 
+static \hyperlink{class_multi_stack_1_1_game_manager}{Game\+Manager} \hyperlink{class_multi_stack_1_1_game_manager_a80429580a27850ee0b78b84ec7cb283e}{instance}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets the instance of this class. Accessible from any class. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Controls the game flow. Handles beginning the game, spawning the stage, starting new rounds, and ending the game. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_game_manager_a8c599ec14abfba5712e9631a00d4ec59}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!On\+Game\+Over@{On\+Game\+Over}}
+\index{On\+Game\+Over@{On\+Game\+Over}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{On\+Game\+Over(\+Game\+Over\+Type game\+Over\+Type=\+Game\+Over\+Type.\+Shape\+Off\+Screen)}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Game\+Manager.\+On\+Game\+Over (
+\begin{DoxyParamCaption}
+\item[{{\bf Game\+Over\+Type}}]{game\+Over\+Type = {\ttfamily GameOverType.ShapeOffScreen}}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_game_manager_a8c599ec14abfba5712e9631a00d4ec59}
+
+
+Called in the event of a game over (either a players timer reaches zero or a shape falls out of bounds). Disables camera panning and \hyperlink{class_multi_stack_1_1_turn_manager}{Multi\+Stack.\+Turn\+Manager} updates, and saves current height and round via \hyperlink{class_multi_stack_1_1_data_persistence}{Multi\+Stack.\+Data\+Persistence} 
+
+\hypertarget{class_multi_stack_1_1_game_manager_aa8e72d64791c9e4db6815341488110fd}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!On\+Round\+Over@{On\+Round\+Over}}
+\index{On\+Round\+Over@{On\+Round\+Over}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{On\+Round\+Over()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Game\+Manager.\+On\+Round\+Over (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_game_manager_aa8e72d64791c9e4db6815341488110fd}
+
+
+Raised at the end of each round. Shows new round text, applies a round modifier via \hyperlink{class_multi_stack_1_1_game_modifier_manager}{Multi\+Stack.\+Game\+Modifier\+Manager} and invokes \hyperlink{class_multi_stack_1_1_turn_manager_ae7cb8bf242a4c9cc7285be6aa8d3efb8}{Multi\+Stack.\+Turn\+Manager.\+Start\+New\+Round}. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_game_manager_a252e0694a8be8d574757504fc5549afd}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!game\+Modifier\+Manager@{game\+Modifier\+Manager}}
+\index{game\+Modifier\+Manager@{game\+Modifier\+Manager}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{game\+Modifier\+Manager}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Modifier\+Manager} Multi\+Stack.\+Game\+Manager.\+game\+Modifier\+Manager}\label{class_multi_stack_1_1_game_manager_a252e0694a8be8d574757504fc5549afd}
+
+
+The game modifier manager. Used to apply a game modifier at the beginning of each round. 
+
+\hypertarget{class_multi_stack_1_1_game_manager_a6b33f48d117d4db0a6873b1028eebb38}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!game\+Over\+U\+I@{game\+Over\+U\+I}}
+\index{game\+Over\+U\+I@{game\+Over\+U\+I}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{game\+Over\+U\+I}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Over\+U\+I} Multi\+Stack.\+Game\+Manager.\+game\+Over\+U\+I}\label{class_multi_stack_1_1_game_manager_a6b33f48d117d4db0a6873b1028eebb38}
+
+
+The game over U\+I controller. 
+
+\hypertarget{class_multi_stack_1_1_game_manager_a479c44610a6637e259add0fa0c3128e4}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!info\+Text@{info\+Text}}
+\index{info\+Text@{info\+Text}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{info\+Text}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Text} Multi\+Stack.\+Game\+Manager.\+info\+Text}\label{class_multi_stack_1_1_game_manager_a479c44610a6637e259add0fa0c3128e4}
+
+
+The info text U\+I object. Provides information to the player. 
+
+\hypertarget{class_multi_stack_1_1_game_manager_a5a526de2c9547502f5a8613d609624ef}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!stage\+Selector@{stage\+Selector}}
+\index{stage\+Selector@{stage\+Selector}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{stage\+Selector}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Stage\+Selector} Multi\+Stack.\+Game\+Manager.\+stage\+Selector}\label{class_multi_stack_1_1_game_manager_a5a526de2c9547502f5a8613d609624ef}
+
+
+The stage selector. Used to spawn the stage at the beginning of the game. 
+
+\hypertarget{class_multi_stack_1_1_game_manager_aa3378e26e4669efb5cc272dfb2c80d6a}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!ui\+Flash@{ui\+Flash}}
+\index{ui\+Flash@{ui\+Flash}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{ui\+Flash}]{\setlength{\rightskip}{0pt plus 5cm}{\bf U\+I\+Flash} Multi\+Stack.\+Game\+Manager.\+ui\+Flash}\label{class_multi_stack_1_1_game_manager_aa3378e26e4669efb5cc272dfb2c80d6a}
+
+
+Reference to \hyperlink{class_multi_stack_1_1_u_i_flash}{U\+I\+Flash}, used to hide the game behind a semi-\/transparent texture on game over. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_multi_stack_1_1_game_manager_a80429580a27850ee0b78b84ec7cb283e}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!instance@{instance}}
+\index{instance@{instance}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{instance}]{\setlength{\rightskip}{0pt plus 5cm}{\bf Game\+Manager} Multi\+Stack.\+Game\+Manager.\+instance\hspace{0.3cm}{\ttfamily [static]}, {\ttfamily [get]}}\label{class_multi_stack_1_1_game_manager_a80429580a27850ee0b78b84ec7cb283e}
+
+
+Gets the instance of this class. Accessible from any class. 
+
+The instance.\hypertarget{class_multi_stack_1_1_game_manager_afe212dfefd75cfeb1e3fcc817bb92b64}{}\index{Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}!is\+Game\+Over@{is\+Game\+Over}}
+\index{is\+Game\+Over@{is\+Game\+Over}!Multi\+Stack\+::\+Game\+Manager@{Multi\+Stack\+::\+Game\+Manager}}
+\subsubsection[{is\+Game\+Over}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Game\+Manager.\+is\+Game\+Over\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_game_manager_afe212dfefd75cfeb1e3fcc817bb92b64}
+
+
+Gets a value indicating whether the game is over. 
+
+{\ttfamily true} if is game over; otherwise, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+Managers/Game\+Manager.\+cs\end{DoxyCompactItemize}

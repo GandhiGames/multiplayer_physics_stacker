@@ -1,0 +1,135 @@
+\hypertarget{class_multi_stack_1_1_glass_object}{}\section{Multi\+Stack.\+Glass\+Object Class Reference}
+\label{class_multi_stack_1_1_glass_object}\index{Multi\+Stack.\+Glass\+Object@{Multi\+Stack.\+Glass\+Object}}
+
+
+Attached to any shape that can be turned into a glass shape. Handles changing a shapes sprite and breaking.  
+
+
+Inheritance diagram for Multi\+Stack.\+Glass\+Object\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=2.000000cm]{class_multi_stack_1_1_glass_object}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{class_multi_stack_1_1_glass_object_a7cc0399f29ea62b202cfaf8df9438bad}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Activate this instance and changes the shapes sprite to that of \hyperlink{class_multi_stack_1_1_glass_object_a9ef4bb35966c6cb6861b70ee178e5074}{Multi\+Stack.\+Glass\+Object.\+initial\+Glass\+Sprite}. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+Sprite \hyperlink{class_multi_stack_1_1_glass_object_a9ef4bb35966c6cb6861b70ee178e5074}{initial\+Glass\+Sprite}
+\begin{DoxyCompactList}\small\item\em The shapes sprite is changed to this sprite when it is activated. \end{DoxyCompactList}\item 
+Sprite\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_glass_object_a3f4a1945cc951946fa2cb0c7273f63b1}{broken\+Stages}
+\begin{DoxyCompactList}\small\item\em The broken stages. A glass shape can go through a number of stages before breaking. This holds the sprite for each stage. \end{DoxyCompactList}\item 
+Game\+Object\mbox{[}$\,$\mbox{]} \hyperlink{class_multi_stack_1_1_glass_object_af62687ae4ee9848946633a1fb5e0a4ff}{smashed\+Object\+Prefabs}
+\begin{DoxyCompactList}\small\item\em The smashed object prefabs. Spawned when the glass object breaks. \end{DoxyCompactList}\item 
+Audio\+Clip \hyperlink{class_multi_stack_1_1_glass_object_a371c5cf69b11f23d2da81a3e819d6bf8}{cracked\+Audio\+Clip}
+\begin{DoxyCompactList}\small\item\em The audioclip to play when the glass shape cracks. \end{DoxyCompactList}\item 
+Audio\+Clip \hyperlink{class_multi_stack_1_1_glass_object_a0ffbf8da1d39767934eb87e8a2ee6710}{smashed\+Audio\+Clip}
+\begin{DoxyCompactList}\small\item\em The audio clip to play when the glass shape breaks. \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_glass_object_ae9c87a466956cd98113e0b17ad11bcd5}{required\+Force\+To\+Crack} = 2f
+\begin{DoxyCompactList}\small\item\em The required force to crack. When an object collides with this shape, if the collision force is above this force then the shape cracks/breaks. \end{DoxyCompactList}\item 
+float \hyperlink{class_multi_stack_1_1_glass_object_ac93340a7501f7e1db6dcffef8dea24ea}{required\+Mass\+To\+Crack} = 2f
+\begin{DoxyCompactList}\small\item\em The required combined mass of shapes placed on top of this shape to cause the shape to break/crack. \end{DoxyCompactList}\item 
+Layer\+Mask \hyperlink{class_multi_stack_1_1_glass_object_abce95b7ebe64b863239f56468071187b}{box\+Mask}
+\begin{DoxyCompactList}\small\item\em The layermask for physics objects. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Properties}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_multi_stack_1_1_glass_object_a4ab5c37980ecdeea3986f7075c7ea6aa}{ready\+To\+Be\+Activated}\hspace{0.3cm}{\ttfamily  \mbox{[}get\mbox{]}}
+\begin{DoxyCompactList}\small\item\em Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_glass_object}{Multi\+Stack.\+Glass\+Object} is ready to be activated. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Attached to any shape that can be turned into a glass shape. Handles changing a shapes sprite and breaking. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_glass_object_a7cc0399f29ea62b202cfaf8df9438bad}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!Activate@{Activate}}
+\index{Activate@{Activate}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{Activate()}]{\setlength{\rightskip}{0pt plus 5cm}void Multi\+Stack.\+Glass\+Object.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)}\label{class_multi_stack_1_1_glass_object_a7cc0399f29ea62b202cfaf8df9438bad}
+
+
+Activate this instance and changes the shapes sprite to that of \hyperlink{class_multi_stack_1_1_glass_object_a9ef4bb35966c6cb6861b70ee178e5074}{Multi\+Stack.\+Glass\+Object.\+initial\+Glass\+Sprite}. 
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_glass_object_abce95b7ebe64b863239f56468071187b}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!box\+Mask@{box\+Mask}}
+\index{box\+Mask@{box\+Mask}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{box\+Mask}]{\setlength{\rightskip}{0pt plus 5cm}Layer\+Mask Multi\+Stack.\+Glass\+Object.\+box\+Mask}\label{class_multi_stack_1_1_glass_object_abce95b7ebe64b863239f56468071187b}
+
+
+The layermask for physics objects. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_a3f4a1945cc951946fa2cb0c7273f63b1}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!broken\+Stages@{broken\+Stages}}
+\index{broken\+Stages@{broken\+Stages}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{broken\+Stages}]{\setlength{\rightskip}{0pt plus 5cm}Sprite \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Glass\+Object.\+broken\+Stages}\label{class_multi_stack_1_1_glass_object_a3f4a1945cc951946fa2cb0c7273f63b1}
+
+
+The broken stages. A glass shape can go through a number of stages before breaking. This holds the sprite for each stage. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_a371c5cf69b11f23d2da81a3e819d6bf8}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!cracked\+Audio\+Clip@{cracked\+Audio\+Clip}}
+\index{cracked\+Audio\+Clip@{cracked\+Audio\+Clip}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{cracked\+Audio\+Clip}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Clip Multi\+Stack.\+Glass\+Object.\+cracked\+Audio\+Clip}\label{class_multi_stack_1_1_glass_object_a371c5cf69b11f23d2da81a3e819d6bf8}
+
+
+The audioclip to play when the glass shape cracks. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_a9ef4bb35966c6cb6861b70ee178e5074}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!initial\+Glass\+Sprite@{initial\+Glass\+Sprite}}
+\index{initial\+Glass\+Sprite@{initial\+Glass\+Sprite}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{initial\+Glass\+Sprite}]{\setlength{\rightskip}{0pt plus 5cm}Sprite Multi\+Stack.\+Glass\+Object.\+initial\+Glass\+Sprite}\label{class_multi_stack_1_1_glass_object_a9ef4bb35966c6cb6861b70ee178e5074}
+
+
+The shapes sprite is changed to this sprite when it is activated. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_ae9c87a466956cd98113e0b17ad11bcd5}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!required\+Force\+To\+Crack@{required\+Force\+To\+Crack}}
+\index{required\+Force\+To\+Crack@{required\+Force\+To\+Crack}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{required\+Force\+To\+Crack}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Glass\+Object.\+required\+Force\+To\+Crack = 2f}\label{class_multi_stack_1_1_glass_object_ae9c87a466956cd98113e0b17ad11bcd5}
+
+
+The required force to crack. When an object collides with this shape, if the collision force is above this force then the shape cracks/breaks. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_ac93340a7501f7e1db6dcffef8dea24ea}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!required\+Mass\+To\+Crack@{required\+Mass\+To\+Crack}}
+\index{required\+Mass\+To\+Crack@{required\+Mass\+To\+Crack}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{required\+Mass\+To\+Crack}]{\setlength{\rightskip}{0pt plus 5cm}float Multi\+Stack.\+Glass\+Object.\+required\+Mass\+To\+Crack = 2f}\label{class_multi_stack_1_1_glass_object_ac93340a7501f7e1db6dcffef8dea24ea}
+
+
+The required combined mass of shapes placed on top of this shape to cause the shape to break/crack. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_a0ffbf8da1d39767934eb87e8a2ee6710}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!smashed\+Audio\+Clip@{smashed\+Audio\+Clip}}
+\index{smashed\+Audio\+Clip@{smashed\+Audio\+Clip}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{smashed\+Audio\+Clip}]{\setlength{\rightskip}{0pt plus 5cm}Audio\+Clip Multi\+Stack.\+Glass\+Object.\+smashed\+Audio\+Clip}\label{class_multi_stack_1_1_glass_object_a0ffbf8da1d39767934eb87e8a2ee6710}
+
+
+The audio clip to play when the glass shape breaks. 
+
+\hypertarget{class_multi_stack_1_1_glass_object_af62687ae4ee9848946633a1fb5e0a4ff}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!smashed\+Object\+Prefabs@{smashed\+Object\+Prefabs}}
+\index{smashed\+Object\+Prefabs@{smashed\+Object\+Prefabs}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{smashed\+Object\+Prefabs}]{\setlength{\rightskip}{0pt plus 5cm}Game\+Object \mbox{[}$\,$\mbox{]} Multi\+Stack.\+Glass\+Object.\+smashed\+Object\+Prefabs}\label{class_multi_stack_1_1_glass_object_af62687ae4ee9848946633a1fb5e0a4ff}
+
+
+The smashed object prefabs. Spawned when the glass object breaks. 
+
+
+
+\subsection{Property Documentation}
+\hypertarget{class_multi_stack_1_1_glass_object_a4ab5c37980ecdeea3986f7075c7ea6aa}{}\index{Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}!ready\+To\+Be\+Activated@{ready\+To\+Be\+Activated}}
+\index{ready\+To\+Be\+Activated@{ready\+To\+Be\+Activated}!Multi\+Stack\+::\+Glass\+Object@{Multi\+Stack\+::\+Glass\+Object}}
+\subsubsection[{ready\+To\+Be\+Activated}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Glass\+Object.\+ready\+To\+Be\+Activated\hspace{0.3cm}{\ttfamily [get]}}\label{class_multi_stack_1_1_glass_object_a4ab5c37980ecdeea3986f7075c7ea6aa}
+
+
+Gets a value indicating whether this \hyperlink{class_multi_stack_1_1_glass_object}{Multi\+Stack.\+Glass\+Object} is ready to be activated. 
+
+{\ttfamily true} if ready to be activated; otherwise, {\ttfamily false}.
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+Objects/Glass\+Object.\+cs\end{DoxyCompactItemize}

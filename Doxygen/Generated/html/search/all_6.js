@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['gamemanager',['GameManager',['../class_multi_stack_1_1_game_manager.html',1,'MultiStack']]],
+  ['gamemodifier',['GameModifier',['../class_multi_stack_1_1_game_modifier.html',1,'MultiStack']]],
+  ['gamemodifiermanager',['gameModifierManager',['../class_multi_stack_1_1_game_manager.html#a252e0694a8be8d574757504fc5549afd',1,'MultiStack::GameManager']]],
+  ['gamemodifiermanager',['GameModifierManager',['../class_multi_stack_1_1_game_modifier_manager.html',1,'MultiStack']]],
+  ['gameoverhandler',['GameOverHandler',['../class_multi_stack_1_1_game_over_handler.html',1,'MultiStack']]],
+  ['gameovertype',['GameOverType',['../namespace_multi_stack.html#a19d387de624d6945620427c53c4f0c10',1,'MultiStack']]],
+  ['gameoverui',['GameOverUI',['../class_multi_stack_1_1_game_over_u_i.html',1,'MultiStack']]],
+  ['gameoverui',['gameOverUI',['../class_multi_stack_1_1_game_manager.html#a6b33f48d117d4db0a6873b1028eebb38',1,'MultiStack::GameManager']]],
+  ['gameoveruiflashinseconds',['GameOverUIFlashInSeconds',['../class_multi_stack_1_1_u_i_flash.html#a9c6d28d75576441b49a23682378c8411',1,'MultiStack::UIFlash']]],
+  ['gametext',['GameText',['../class_multi_stack_1_1_game_text.html',1,'MultiStack']]],
+  ['getrandomrotation2d',['GetRandomRotation2D',['../class_multi_stack_1_1_utilities.html#a68f6db0cf3e49859e5c29981d540f793',1,'MultiStack::Utilities']]],
+  ['glassobject',['GlassObject',['../class_multi_stack_1_1_glass_object.html',1,'MultiStack']]],
+  ['glassshapemodifier',['GlassShapeModifier',['../class_multi_stack_1_1_glass_shape_modifier.html',1,'MultiStack']]],
+  ['glassspriteavailableforspawnedobject',['glassSpriteAvailableForSpawnedObject',['../class_multi_stack_1_1_turn_manager.html#a2e2e26f02fda080730d6bd6c5e837e72',1,'MultiStack::TurnManager']]],
+  ['gravitymodifier',['GravityModifier',['../class_multi_stack_1_1_gravity_modifier.html',1,'MultiStack']]],
+  ['gravitymodifier',['gravityModifier',['../class_multi_stack_1_1_gravity_modifier.html#acbf32d1df1f242f10f95280c0a4b5b4d',1,'MultiStack::GravityModifier']]]
+];

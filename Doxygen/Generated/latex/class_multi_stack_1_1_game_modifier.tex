@@ -1,0 +1,107 @@
+\hypertarget{class_multi_stack_1_1_game_modifier}{}\section{Multi\+Stack.\+Game\+Modifier Class Reference}
+\label{class_multi_stack_1_1_game_modifier}\index{Multi\+Stack.\+Game\+Modifier@{Multi\+Stack.\+Game\+Modifier}}
+
+
+The abstract base class for every game modifier. Game modifiers are applied each round to change how the game is played.  
+
+
+Inheritance diagram for Multi\+Stack.\+Game\+Modifier\+:\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[height=12.000000cm]{class_multi_stack_1_1_game_modifier}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+abstract void \hyperlink{class_multi_stack_1_1_game_modifier_a3fb880f9728f8680bf473ac5c7f6832e}{Activate} ()
+\begin{DoxyCompactList}\small\item\em Activate this modifier. Called at the beginning of the round. \end{DoxyCompactList}\item 
+abstract void \hyperlink{class_multi_stack_1_1_game_modifier_abe04db6ab31f5e5063739d8e5a3f7ad1}{Deactivate} ()
+\begin{DoxyCompactList}\small\item\em Deactivate this modifier. Called before a new modifier is enabled. \end{DoxyCompactList}\item 
+virtual bool \hyperlink{class_multi_stack_1_1_game_modifier_acbf45f289c8da7d9aaf129573b2c807c}{Conditions\+Met} ()
+\begin{DoxyCompactList}\small\item\em Place any prerequisites for the modifier here. By defauly a modifier has all conditions met unless this method is overriden. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+bool \hyperlink{class_multi_stack_1_1_game_modifier_a307c902c8fb9fac72d7a4dd74a6bf050}{Is\+Enabled} = true
+\begin{DoxyCompactList}\small\item\em Set whether this game modifier is enabled. Disable this in the inspector to prevent the modifier from being applied. \end{DoxyCompactList}\item 
+string \hyperlink{class_multi_stack_1_1_game_modifier_ad998250afe8d90cd438b4777a86e34bb}{modifier\+Name}
+\begin{DoxyCompactList}\small\item\em The modifier name. This is shown in the U\+I when the modifier is applied. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+The abstract base class for every game modifier. Game modifiers are applied each round to change how the game is played. 
+
+
+
+\subsection{Member Function Documentation}
+\hypertarget{class_multi_stack_1_1_game_modifier_a3fb880f9728f8680bf473ac5c7f6832e}{}\index{Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}!Activate@{Activate}}
+\index{Activate@{Activate}!Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}}
+\subsubsection[{Activate()}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Multi\+Stack.\+Game\+Modifier.\+Activate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{class_multi_stack_1_1_game_modifier_a3fb880f9728f8680bf473ac5c7f6832e}
+
+
+Activate this modifier. Called at the beginning of the round. 
+
+
+
+Implemented in \hyperlink{class_multi_stack_1_1_one_shape_modifier_a36e475d44744e4f6d5b3dbe1b1ee3a16}{Multi\+Stack.\+One\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_time_for_move_modifier_a20bbbf8a51e48116235eff90cfa841a3}{Multi\+Stack.\+Time\+For\+Move\+Modifier}, \hyperlink{class_multi_stack_1_1_gravity_modifier_a752251d8ba8759184857968d2be3327b}{Multi\+Stack.\+Gravity\+Modifier}, \hyperlink{class_multi_stack_1_1_shape_movement_speed_modifier_a9c340894f491f8b11b8753bb4f333d4c}{Multi\+Stack.\+Shape\+Movement\+Speed\+Modifier}, \hyperlink{class_multi_stack_1_1_can_only_pickup_once_modifier_a92da95d7bb53c6c81c60a0a0d28b5c1b}{Multi\+Stack.\+Can\+Only\+Pickup\+Once\+Modifier}, \hyperlink{class_multi_stack_1_1_explosive_shape_modifier_abf979aeccc0665ec513ab62cb908d981}{Multi\+Stack.\+Explosive\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_increase_shape_size_while_held_modifier_a85f9b349e3654575248f7d8b4a14868e}{Multi\+Stack.\+Increase\+Shape\+Size\+While\+Held\+Modifier}, \hyperlink{class_multi_stack_1_1_reverse_drag_modifier_a4210fbc0eb598a7b4f31976407e4e1ff}{Multi\+Stack.\+Reverse\+Drag\+Modifier}, \hyperlink{class_multi_stack_1_1_shakey_shapes_modifier_ae45e7bdf85d9655ef28b5a33e0ae72e6}{Multi\+Stack.\+Shakey\+Shapes\+Modifier}, \hyperlink{class_multi_stack_1_1_shape_size_modifier_a5dd27bb25d63f05f2d6c1f4c4f88fd3f}{Multi\+Stack.\+Shape\+Size\+Modifier}, \hyperlink{class_multi_stack_1_1_spring_modifier_ac96460f57d038035461804282c110040}{Multi\+Stack.\+Spring\+Modifier}, \hyperlink{class_multi_stack_1_1_glass_shape_modifier_aeb771b0599250515a886e0175aee746e}{Multi\+Stack.\+Glass\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_catch_the_shape_modifier_a5617ebd934298acc024336daa5c633fb}{Multi\+Stack.\+Catch\+The\+Shape\+Modifier}, and \hyperlink{class_multi_stack_1_1_random_player_order_modifier_a6f2965f6ee8933b1631974cefba9bd00}{Multi\+Stack.\+Random\+Player\+Order\+Modifier}.
+
+\hypertarget{class_multi_stack_1_1_game_modifier_acbf45f289c8da7d9aaf129573b2c807c}{}\index{Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}!Conditions\+Met@{Conditions\+Met}}
+\index{Conditions\+Met@{Conditions\+Met}!Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}}
+\subsubsection[{Conditions\+Met()}]{\setlength{\rightskip}{0pt plus 5cm}virtual bool Multi\+Stack.\+Game\+Modifier.\+Conditions\+Met (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [virtual]}}\label{class_multi_stack_1_1_game_modifier_acbf45f289c8da7d9aaf129573b2c807c}
+
+
+Place any prerequisites for the modifier here. By defauly a modifier has all conditions met unless this method is overriden. 
+
+\begin{DoxyReturn}{Returns}
+{\ttfamily true}, if met was conditionsed, {\ttfamily false} otherwise.
+\end{DoxyReturn}
+
+
+Reimplemented in \hyperlink{class_multi_stack_1_1_explosive_shape_modifier_adaa2309e63d98090bb81527a3d42d04c}{Multi\+Stack.\+Explosive\+Shape\+Modifier}, and \hyperlink{class_multi_stack_1_1_glass_shape_modifier_a75991df9c063e2fc4fd1183001df7206}{Multi\+Stack.\+Glass\+Shape\+Modifier}.
+
+\hypertarget{class_multi_stack_1_1_game_modifier_abe04db6ab31f5e5063739d8e5a3f7ad1}{}\index{Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}!Deactivate@{Deactivate}}
+\index{Deactivate@{Deactivate}!Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}}
+\subsubsection[{Deactivate()}]{\setlength{\rightskip}{0pt plus 5cm}abstract void Multi\+Stack.\+Game\+Modifier.\+Deactivate (
+\begin{DoxyParamCaption}
+{}
+\end{DoxyParamCaption}
+)\hspace{0.3cm}{\ttfamily [pure virtual]}}\label{class_multi_stack_1_1_game_modifier_abe04db6ab31f5e5063739d8e5a3f7ad1}
+
+
+Deactivate this modifier. Called before a new modifier is enabled. 
+
+
+
+Implemented in \hyperlink{class_multi_stack_1_1_one_shape_modifier_a26f5a41e291d04df9a55fd931ff834ec}{Multi\+Stack.\+One\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_time_for_move_modifier_a52651c8cbe22e57c0e1d5dd3f4d5fafc}{Multi\+Stack.\+Time\+For\+Move\+Modifier}, \hyperlink{class_multi_stack_1_1_gravity_modifier_a709194d36407f2910ceff941785d8720}{Multi\+Stack.\+Gravity\+Modifier}, \hyperlink{class_multi_stack_1_1_shape_movement_speed_modifier_a6c8209e8db355d3b3204167c76049503}{Multi\+Stack.\+Shape\+Movement\+Speed\+Modifier}, \hyperlink{class_multi_stack_1_1_can_only_pickup_once_modifier_a5375d39256e231f65b9dddc86581b185}{Multi\+Stack.\+Can\+Only\+Pickup\+Once\+Modifier}, \hyperlink{class_multi_stack_1_1_explosive_shape_modifier_a48727a773c318122bc369a48079f2f30}{Multi\+Stack.\+Explosive\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_increase_shape_size_while_held_modifier_a936b7d337b1aa5febcfd6eb2ad37a016}{Multi\+Stack.\+Increase\+Shape\+Size\+While\+Held\+Modifier}, \hyperlink{class_multi_stack_1_1_reverse_drag_modifier_a32d5963443ed0867c51c97f76128d3ec}{Multi\+Stack.\+Reverse\+Drag\+Modifier}, \hyperlink{class_multi_stack_1_1_shakey_shapes_modifier_a10f32463b2e5e38d7b50698232e145b4}{Multi\+Stack.\+Shakey\+Shapes\+Modifier}, \hyperlink{class_multi_stack_1_1_shape_size_modifier_a74e6cc4af581e1167679d0b3d9740785}{Multi\+Stack.\+Shape\+Size\+Modifier}, \hyperlink{class_multi_stack_1_1_spring_modifier_ae6aaf8c2806a1c844b1700977efb2dbc}{Multi\+Stack.\+Spring\+Modifier}, \hyperlink{class_multi_stack_1_1_glass_shape_modifier_a44026d971a40d8e5ce02f2611be19b0f}{Multi\+Stack.\+Glass\+Shape\+Modifier}, \hyperlink{class_multi_stack_1_1_catch_the_shape_modifier_ad6ad792bcc0ae5fdd4890af7ec5fe7b1}{Multi\+Stack.\+Catch\+The\+Shape\+Modifier}, and \hyperlink{class_multi_stack_1_1_random_player_order_modifier_a75341a38b55dde95e4037d5ce829ed72}{Multi\+Stack.\+Random\+Player\+Order\+Modifier}.
+
+
+
+\subsection{Member Data Documentation}
+\hypertarget{class_multi_stack_1_1_game_modifier_a307c902c8fb9fac72d7a4dd74a6bf050}{}\index{Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}!Is\+Enabled@{Is\+Enabled}}
+\index{Is\+Enabled@{Is\+Enabled}!Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}}
+\subsubsection[{Is\+Enabled}]{\setlength{\rightskip}{0pt plus 5cm}bool Multi\+Stack.\+Game\+Modifier.\+Is\+Enabled = true}\label{class_multi_stack_1_1_game_modifier_a307c902c8fb9fac72d7a4dd74a6bf050}
+
+
+Set whether this game modifier is enabled. Disable this in the inspector to prevent the modifier from being applied. 
+
+\hypertarget{class_multi_stack_1_1_game_modifier_ad998250afe8d90cd438b4777a86e34bb}{}\index{Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}!modifier\+Name@{modifier\+Name}}
+\index{modifier\+Name@{modifier\+Name}!Multi\+Stack\+::\+Game\+Modifier@{Multi\+Stack\+::\+Game\+Modifier}}
+\subsubsection[{modifier\+Name}]{\setlength{\rightskip}{0pt plus 5cm}string Multi\+Stack.\+Game\+Modifier.\+modifier\+Name}\label{class_multi_stack_1_1_game_modifier_ad998250afe8d90cd438b4777a86e34bb}
+
+
+The modifier name. This is shown in the U\+I when the modifier is applied. 
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Multiplayer\+Stacker/\+Scripts/\+Modifiers/Game\+Modifier.\+cs\end{DoxyCompactItemize}

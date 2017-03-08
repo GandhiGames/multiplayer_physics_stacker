@@ -1,6 +1,5 @@
 ﻿using UnityEngine;
-using UnityEngine.UI;
-using System.Collections;
+using UnityEngine.SceneManagement;
 using System.Collections.Generic;
 
 namespace MultiStack
@@ -146,7 +145,7 @@ namespace MultiStack
 			} else {
 				if (_playerCount > 0) {
 					_playerNumberCount.numberOfPlayers = _playerCount;
-					Application.LoadLevel ("Game Scene");
+                    SceneManager.LoadScene("Game Scene");
 				}
 			}
 		}

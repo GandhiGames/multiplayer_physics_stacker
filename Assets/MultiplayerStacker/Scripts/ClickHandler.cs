@@ -112,7 +112,7 @@ namespace MultiStack
 			foreach (var touch in Input.touches) {
 				if (touch.phase == TouchPhase.Began) {
 					PickupObject (touch.position);
-				} else if (touch.phase == TouchPhase.Ended && grabbedObject != null) {
+				} else if (touch.phase == TouchPhase.Ended && _grabbedObject != null) {
 					DropObject ();
 				}
 			}
@@ -260,7 +260,8 @@ namespace MultiStack
 						dragLine.enabled = true;
 						
 						if (playerColours) {
-							dragLine.SetColors (playerColours.colours [TurnManager.instance.currentPlayer], playerColours.colours [TurnManager.instance.currentPlayer]);
+                            dragLine.startColor = playerColours.colours[TurnManager.instance.currentPlayer];
+                            dragLine.endColor = playerColours.colours[TurnManager.instance.currentPlayer];
 							dragLine.materials [0].color = playerColours.colours [TurnManager.instance.currentPlayer];
 							dragLine.material.color = playerColours.colours [TurnManager.instance.currentPlayer];
 						}
